@@ -2,6 +2,10 @@
 using System.Linq;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using System;
+using System.Collections.Generic;
+using UnityEngine.EventSystems;
+using Random = System.Random;
 
 public class GameMTT : MonoBehaviour
 {
@@ -131,8 +135,10 @@ public class GameMTT : MonoBehaviour
 
     public void RockPaperScissors(int num)
     {
+        Random random = new Random(Guid.NewGuid().GetHashCode());
         tieBreak = true;
-        botRPS = Random.Range(0, 2);
+        
+        botRPS = random.Next(0, 3);
         if ((num == 0 && botRPS == 2) || (num == 1 && botRPS == 0) || (num == 2 && botRPS == 1))
         {
             StartCoroutine(wsl.FullScreenAnimation(botRPS, num, 0));

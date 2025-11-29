@@ -19,6 +19,7 @@ public class WinScreenLoader : MonoBehaviour
 
     public IEnumerator FullScreenAnimation(int botMove, int playerMove, int win)
     {
+        Debug.Log("Coroutine Start");
         Scene2.transform.Find("Player").GetComponent<Image>().sprite = PlayerSprites[playerMove];
         Scene2.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[botMove];
         yield return null;
@@ -41,8 +42,11 @@ public class WinScreenLoader : MonoBehaviour
         }
         else
         {
-            yield return new WaitForSeconds(0.5f);
+            Debug.Log("entered else");
+            Scene1.SetActive(true);
+            game.StopAllCoroutines();
         }
+        Debug.Log("skipped else");
         yield return null;
         self.SetActive(false);
         yield return StartCoroutine(game.FinishingUpdate(win));
