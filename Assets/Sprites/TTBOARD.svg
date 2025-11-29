@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="140mm"
+   height="140.00002mm"
+   viewBox="0 0 529.13387 529.13392"
+   version="1.1"
+   id="svg1"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#999999"
+     borderopacity="1"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm" />
+  <defs
+     id="defs1" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-120.71335,-296.6929)">
+    <path
+       d="m 291.82429,296.69292 c -8.67897,0 -15.66622,6.98723 -15.66622,15.66622 v 139.7785 h -139.7785 c -8.67895,0 -15.66622,6.98728 -15.66622,15.66622 0,8.67894 6.98727,15.66621 15.66622,15.66621 h 139.7785 V 638.9148 h -139.7785 c -8.679,0 -15.66622,6.98722 -15.66622,15.66621 0,8.679 6.98722,15.66621 15.66622,15.66621 h 139.7785 v 139.91335 c 0,8.67902 6.98721,15.66622 15.66622,15.66622 8.67901,0 15.66621,-6.9872 15.66621,-15.66622 V 670.24722 h 155.44473 v 139.91335 c 0,8.67893 6.98729,15.66622 15.66621,15.66622 8.67893,0 15.66621,-6.98729 15.66621,-15.66622 V 670.24722 H 634.181 c 8.67895,0 15.66622,-6.98727 15.66622,-15.66621 0,-8.67894 -6.98727,-15.66621 -15.66622,-15.66621 H 494.26765 V 483.47007 H 634.181 c 8.67897,0 15.66622,-6.98726 15.66622,-15.66621 0,-8.67895 -6.98725,-15.66622 -15.66622,-15.66622 H 494.26765 v -139.7785 c 0,-8.67899 -6.98723,-15.66622 -15.66621,-15.66622 -8.67897,0 -15.66621,6.98723 -15.66621,15.66622 v 139.7785 H 307.4905 v -139.7785 c 0,-8.67899 -6.98724,-15.66622 -15.66621,-15.66622 z M 307.4905,483.47007 H 462.93523 V 638.9148 H 307.4905 Z"
+       style="opacity:1;stroke-width:43.0309;stroke-linecap:round;stroke-linejoin:round;stroke-dashoffset:26.52;paint-order:stroke fill markers"
+       id="path49" />
+  </g>
+</svg>

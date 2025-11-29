@@ -1,0 +1,636 @@
+fileFormatVersion: 2
+guid: 64da8fff9bd623143abc63ae2273a2a9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3478243901109203413
+    second: mine tac toe rules 8x_0
+  - first:
+      213: -4772608800601478228
+    second: mine tac toe rules 8x_1
+  - first:
+      213: 3305986339849507397
+    second: mine tac toe rules 8x_2
+  - first:
+      213: -5135680053716449679
+    second: mine tac toe rules 8x_3
+  - first:
+      213: 8682988985530332243
+    second: mine tac toe rules 8x_4
+  - first:
+      213: 6827969474671593610
+    second: mine tac toe rules 8x_5
+  - first:
+      213: 1635752548017100806
+    second: mine tac toe rules 8x_6
+  - first:
+      213: -6394786223976372215
+    second: mine tac toe rules 8x_7
+  - first:
+      213: -8029992624719326888
+    second: mine tac toe rules 8x_8
+  - first:
+      213: -4450095393646942248
+    second: mine tac toe rules 8x_9
+  - first:
+      213: -8449839588218047421
+    second: mine tac toe rules 8x_10
+  - first:
+      213: -1576856912509309091
+    second: mine tac toe rules 8x_11
+  - first:
+      213: 7935607173106941082
+    second: mine tac toe rules 8x_12
+  - first:
+      213: 4956575572055462411
+    second: mine tac toe rules 8x_13
+  - first:
+      213: 203224458880988493
+    second: mine tac toe rules 8x_14
+  - first:
+      213: 4216607990047020660
+    second: mine tac toe rules 8x_15
+  - first:
+      213: -7706600486665574193
+    second: mine tac toe rules 8x_16
+  - first:
+      213: 9121809794646338529
+    second: mine tac toe rules 8x_17
+  - first:
+      213: 5766479903402458168
+    second: mine tac toe rules 8x_18
+  - first:
+      213: 2200949218062079152
+    second: mine tac toe rules 8x_19
+  - first:
+      213: -6882121751915718027
+    second: mine tac toe rules 8x_20
+  - first:
+      213: 3340741132686235077
+    second: mine tac toe rules 8x_21
+  - first:
+      213: 2472903834186627184
+    second: mine tac toe rules 8x_22
+  - first:
+      213: 1713758810173634498
+    second: mine tac toe rules 8x_23
+  - first:
+      213: -4136006824883507718
+    second: mine tac toe rules 8x_24
+  - first:
+      213: 584251507223121564
+    second: mine tac toe rules 8x_25
+  - first:
+      213: 1870291709411068367
+    second: mine tac toe rules 8x_26
+  - first:
+      213: 4266936509181171583
+    second: mine tac toe rules 8x_27
+  - first:
+      213: 506456588230403118
+    second: mine tac toe rules 8x_28
+  - first:
+      213: 3075359416521361186
+    second: mine tac toe rules 8x_29
+  - first:
+      213: -2125515587736110513
+    second: mine tac toe rules 8x_30
+  - first:
+      213: -420756738373661537
+    second: mine tac toe rules 8x_31
+  - first:
+      213: -6487837335905190179
+    second: mine tac toe rules 8x_32
+  - first:
+      213: 2899638810282119030
+    second: mine tac toe rules 8x_33
+  - first:
+      213: 1557151356547465521
+    second: mine tac toe rules 8x_34
+  - first:
+      213: 27099433865398950
+    second: mine tac toe rules 8x_35
+  - first:
+      213: -6669021898260713714
+    second: mine tac toe rules 8x_36
+  - first:
+      213: -174964010614155097
+    second: mine tac toe rules 8x_37
+  - first:
+      213: 651925821168454998
+    second: mine tac toe rules 8x_38
+  - first:
+      213: 6635369084621081489
+    second: mine tac toe rules 8x_39
+  - first:
+      213: 2243330486460255279
+    second: mine tac toe rules 8x_40
+  - first:
+      213: 811804959636617457
+    second: mine tac toe rules 8x_41
+  - first:
+      213: 8368565203436755429
+    second: mine tac toe rules 8x_42
+  - first:
+      213: 843609445989272224
+    second: mine tac toe rules 8x_43
+  - first:
+      213: -2843464818332922414
+    second: mine tac toe rules 8x_44
+  - first:
+      213: 8201783277431136791
+    second: mine tac toe rules 8x_45
+  - first:
+      213: -5898978315219920224
+    second: mine tac toe rules 8x_46
+  - first:
+      213: 6033760751049803621
+    second: mine tac toe rules 8x_47
+  - first:
+      213: -7201105930228678062
+    second: mine tac toe rules 8x_48
+  - first:
+      213: -2974632003980874899
+    second: mine tac toe rules 8x_49
+  - first:
+      213: -3668520806876439956
+    second: mine tac toe rules 8x_50
+  - first:
+      213: -7216765429132886506
+    second: mine tac toe rules 8x_51
+  - first:
+      213: -9147976851247647889
+    second: mine tac toe rules 8x_52
+  - first:
+      213: 3908168050895731414
+    second: mine tac toe rules 8x_53
+  - first:
+      213: -7842010567418218712
+    second: mine tac toe rules 8x_54
+  - first:
+      213: -3267980221680972666
+    second: mine tac toe rules 8x_55
+  - first:
+      213: 3155593859887135664
+    second: mine tac toe rules 8x_56
+  - first:
+      213: 7082065990037889502
+    second: mine tac toe rules 8x_57
+  - first:
+      213: 1921064388308045820
+    second: mine tac toe rules 8x_58
+  - first:
+      213: -1236071964872372708
+    second: mine tac toe rules 8x_59
+  - first:
+      213: 4495045997248617062
+    second: mine tac toe rules 8x_60
+  - first:
+      213: -7442152282847541957
+    second: mine tac toe rules 8x_61
+  - first:
+      213: -2899040897284256257
+    second: mine tac toe rules 8x_62
+  - first:
+      213: 832339336558160647
+    second: mine tac toe rules 8x_63
+  - first:
+      213: -8550621618849701698
+    second: mine tac toe rules 8x_64
+  - first:
+      213: 5378412223485139239
+    second: mine tac toe rules 8x_65
+  - first:
+      213: 545481750136663021
+    second: mine tac toe rules 8x_66
+  - first:
+      213: -4780486357016448232
+    second: mine tac toe rules 8x_67
+  - first:
+      213: 6332657515177162054
+    second: mine tac toe rules 8x_68
+  - first:
+      213: 6775493532970896287
+    second: mine tac toe rules 8x_69
+  - first:
+      213: -6891739287970744551
+    second: mine tac toe rules 8x_70
+  - first:
+      213: 2098170008510299018
+    second: mine tac toe rules 8x_71
+  - first:
+      213: 4006182939276531626
+    second: mine tac toe rules 8x_72
+  - first:
+      213: 8780479084029548308
+    second: mine tac toe rules 8x_73
+  - first:
+      213: 5029016313540318376
+    second: mine tac toe rules 8x_74
+  - first:
+      213: 8740912351537284121
+    second: mine tac toe rules 8x_75
+  - first:
+      213: 5775673930040714951
+    second: mine tac toe rules 8x_76
+  - first:
+      213: -441982118625677372
+    second: mine tac toe rules 8x_77
+  - first:
+      213: -8523634916691878804
+    second: mine tac toe rules 8x_78
+  - first:
+      213: 3539839527785189853
+    second: mine tac toe rules 8x_79
+  - first:
+      213: -5828723928653140572
+    second: mine tac toe rules 8x_80
+  - first:
+      213: -2697635801905429611
+    second: mine tac toe rules 8x_81
+  - first:
+      213: -5366309866925736577
+    second: mine tac toe rules 8x_82
+  - first:
+      213: -7426758302540397986
+    second: mine tac toe rules 8x_83
+  - first:
+      213: 2308473783108324203
+    second: mine tac toe rules 8x_84
+  - first:
+      213: 7328468876277709441
+    second: mine tac toe rules 8x_85
+  - first:
+      213: -6036084970023622426
+    second: mine tac toe rules 8x_86
+  - first:
+      213: -1364258208344831378
+    second: mine tac toe rules 8x_87
+  - first:
+      213: -7727184480959017637
+    second: mine tac toe rules 8x_88
+  - first:
+      213: -3839044412055460186
+    second: mine tac toe rules 8x_89
+  - first:
+      213: 4727933736617209302
+    second: mine tac toe rules 8x_90
+  - first:
+      213: 6081397134887731808
+    second: mine tac toe rules 8x_91
+  - first:
+      213: 9203694136312561035
+    second: mine tac toe rules 8x_92
+  - first:
+      213: -9136802668583560782
+    second: mine tac toe rules 8x_93
+  - first:
+      213: 5544956446396237768
+    second: mine tac toe rules 8x_94
+  - first:
+      213: 2296689656046706982
+    second: mine tac toe rules 8x_95
+  - first:
+      213: -586634620964938462
+    second: mine tac toe rules 8x_96
+  - first:
+      213: -6609123517448493464
+    second: mine tac toe rules 8x_97
+  - first:
+      213: -6817697382865734283
+    second: mine tac toe rules 8x_98
+  - first:
+      213: -8495860485836839009
+    second: mine tac toe rules 8x_99
+  - first:
+      213: 1072597868941964717
+    second: mine tac toe rules 8x_100
+  - first:
+      213: -2282733966125267114
+    second: mine tac toe rules 8x_101
+  - first:
+      213: -7321174166513435775
+    second: mine tac toe rules 8x_102
+  - first:
+      213: -4028971424484504577
+    second: mine tac toe rules 8x_103
+  - first:
+      213: -9084803636543606298
+    second: mine tac toe rules 8x_104
+  - first:
+      213: -6440963710247261879
+    second: mine tac toe rules 8x_105
+  - first:
+      213: -4181511664803853094
+    second: mine tac toe rules 8x_106
+  - first:
+      213: 2734165495309514596
+    second: mine tac toe rules 8x_107
+  - first:
+      213: 3253945477284777789
+    second: mine tac toe rules 8x_108
+  - first:
+      213: -2344272171555303984
+    second: mine tac toe rules 8x_109
+  - first:
+      213: 3857445762430925087
+    second: mine tac toe rules 8x_110
+  - first:
+      213: 2771687635088767431
+    second: mine tac toe rules 8x_111
+  - first:
+      213: 6987651542566334155
+    second: mine tac toe rules 8x_112
+  - first:
+      213: 4975421034125381290
+    second: mine tac toe rules 8x_113
+  - first:
+      213: 4256052178242363996
+    second: mine tac toe rules 8x_114
+  - first:
+      213: 8409792910163536639
+    second: mine tac toe rules 8x_115
+  - first:
+      213: 8278671954986023575
+    second: mine tac toe rules 8x_116
+  - first:
+      213: 9027911072218518783
+    second: mine tac toe rules 8x_117
+  - first:
+      213: -6323499642973433234
+    second: mine tac toe rules 8x_118
+  - first:
+      213: -4268989943087300683
+    second: mine tac toe rules 8x_119
+  - first:
+      213: -8312102273280959776
+    second: mine tac toe rules 8x_120
+  - first:
+      213: -1856116801765482327
+    second: mine tac toe rules 8x_121
+  - first:
+      213: -3457755629408049168
+    second: mine tac toe rules 8x_122
+  - first:
+      213: -8380993470646013255
+    second: mine tac toe rules 8x_123
+  - first:
+      213: -4608544999190987187
+    second: mine tac toe rules 8x_124
+  - first:
+      213: -6427820676459534049
+    second: mine tac toe rules 8x_125
+  - first:
+      213: -834865994399899516
+    second: mine tac toe rules 8x_126
+  - first:
+      213: 3317917541861407718
+    second: mine tac toe rules 8x_127
+  - first:
+      213: -7032243311642537641
+    second: mine tac toe rules 8x_128
+  - first:
+      213: 6681571318432993071
+    second: mine tac toe rules 8x_129
+  - first:
+      213: 6065623395808014041
+    second: mine tac toe rules 8x_130
+  - first:
+      213: -3001509349606339569
+    second: mine tac toe rules 8x_131
+  - first:
+      213: 6815879487357920183
+    second: mine tac toe rules 8x_132
+  - first:
+      213: 2252647613655660375
+    second: mine tac toe rules 8x_133
+  - first:
+      213: -7247262963495306843
+    second: mine tac toe rules 8x_134
+  - first:
+      213: -9169704407821938248
+    second: mine tac toe rules 8x_135
+  - first:
+      213: -7343784462479625178
+    second: mine tac toe rules 8x_136
+  - first:
+      213: -3863349527373123541
+    second: mine tac toe rules 8x_137
+  - first:
+      213: 2025685145748602163
+    second: mine tac toe rules 8x_138
+  - first:
+      213: -2830802778033829062
+    second: mine tac toe rules 8x_139
+  - first:
+      213: -644102608486927015
+    second: mine tac toe rules 8x_140
+  - first:
+      213: -2955299785224959575
+    second: mine tac toe rules 8x_141
+  - first:
+      213: -5820799449696593850
+    second: mine tac toe rules 8x_142
+  - first:
+      213: 7486877507924820574
+    second: mine tac toe rules 8x_143
+  - first:
+      213: -5883652952020805468
+    second: mine tac toe rules 8x_144
+  - first:
+      213: -3916123925972397440
+    second: mine tac toe rules 8x_145
+  - first:
+      213: 2107126171115088610
+    second: mine tac toe rules 8x_146
+  - first:
+      213: 3733095058768269367
+    second: mine tac toe rules 8x_147
+  - first:
+      213: 5447935076729456846
+    second: mine tac toe rules 8x_148
+  - first:
+      213: 8090841183149581315
+    second: mine tac toe rules 8x_149
+  - first:
+      213: 227431007499420142
+    second: mine tac toe rules 8x_150
+  - first:
+      213: 3034081073867317120
+    second: mine tac toe rules 8x_151
+  - first:
+      213: 6028664230251031304
+    second: mine tac toe rules 8x_152
+  - first:
+      213: 1674611700660893713
+    second: mine tac toe rules 8x_153
+  - first:
+      213: -6554011886656104730
+    second: mine tac toe rules 8x_154
+  - first:
+      213: -3845664150953628529
+    second: mine tac toe rules 8x_155
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mine tac toe rules 8x_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4928
+        height: 1590
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a75f2be2351cd74ead615ec26bcfb58
+      internalID: 566652923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 8223fb73f1d4b4a4695a7c54533fa13d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":4928.0,"y":1590.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":2,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      mine tac toe rules 8x_0: 566652923
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

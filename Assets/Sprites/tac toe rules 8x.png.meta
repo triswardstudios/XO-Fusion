@@ -1,0 +1,6500 @@
+fileFormatVersion: 2
+guid: a54462cbd5ce16f4f9fde36d00620400
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8537392492801688056
+    second: tac toe rules 8x_0
+  - first:
+      213: -3926635215033865603
+    second: tac toe rules 8x_1
+  - first:
+      213: 9109901286090150261
+    second: tac toe rules 8x_2
+  - first:
+      213: 5827345701125465481
+    second: tac toe rules 8x_3
+  - first:
+      213: -8703515678543638269
+    second: tac toe rules 8x_4
+  - first:
+      213: 8442437345803598221
+    second: tac toe rules 8x_5
+  - first:
+      213: -8810530329766012812
+    second: tac toe rules 8x_6
+  - first:
+      213: -1301205744522506959
+    second: tac toe rules 8x_7
+  - first:
+      213: -3611175274323516903
+    second: tac toe rules 8x_8
+  - first:
+      213: -7973553032225009769
+    second: tac toe rules 8x_9
+  - first:
+      213: 2531787705254592401
+    second: tac toe rules 8x_10
+  - first:
+      213: 4476271951740537393
+    second: tac toe rules 8x_11
+  - first:
+      213: -6040670779337896363
+    second: tac toe rules 8x_12
+  - first:
+      213: 1609857508547287560
+    second: tac toe rules 8x_13
+  - first:
+      213: -897343396854919025
+    second: tac toe rules 8x_14
+  - first:
+      213: -4379289140418156031
+    second: tac toe rules 8x_15
+  - first:
+      213: -8833735571910523188
+    second: tac toe rules 8x_16
+  - first:
+      213: 9097112486789053890
+    second: tac toe rules 8x_17
+  - first:
+      213: 7981136656421875909
+    second: tac toe rules 8x_18
+  - first:
+      213: 7161301187476672339
+    second: tac toe rules 8x_19
+  - first:
+      213: 5389668512498384041
+    second: tac toe rules 8x_20
+  - first:
+      213: 9090108765816467639
+    second: tac toe rules 8x_21
+  - first:
+      213: -9076484143865649050
+    second: tac toe rules 8x_22
+  - first:
+      213: 1403524095659560072
+    second: tac toe rules 8x_23
+  - first:
+      213: 540720835069707517
+    second: tac toe rules 8x_24
+  - first:
+      213: 6688945665432943346
+    second: tac toe rules 8x_25
+  - first:
+      213: 175415820606656473
+    second: tac toe rules 8x_26
+  - first:
+      213: 2817760078873457795
+    second: tac toe rules 8x_27
+  - first:
+      213: 6619051686903824401
+    second: tac toe rules 8x_28
+  - first:
+      213: -737039789627620934
+    second: tac toe rules 8x_29
+  - first:
+      213: -8075861074665325997
+    second: tac toe rules 8x_30
+  - first:
+      213: -7564996119215446710
+    second: tac toe rules 8x_31
+  - first:
+      213: -1002709392962357263
+    second: tac toe rules 8x_32
+  - first:
+      213: 179578800051480873
+    second: tac toe rules 8x_33
+  - first:
+      213: -2752455563863043888
+    second: tac toe rules 8x_34
+  - first:
+      213: 8206819764770162150
+    second: tac toe rules 8x_35
+  - first:
+      213: 124846530258789110
+    second: tac toe rules 8x_36
+  - first:
+      213: 4224602796762722989
+    second: tac toe rules 8x_37
+  - first:
+      213: -6118045468908745465
+    second: tac toe rules 8x_38
+  - first:
+      213: 9137915757449596749
+    second: tac toe rules 8x_39
+  - first:
+      213: 1807532195709260507
+    second: tac toe rules 8x_40
+  - first:
+      213: -6757627422485500251
+    second: tac toe rules 8x_41
+  - first:
+      213: -1954433555402865886
+    second: tac toe rules 8x_42
+  - first:
+      213: 5839894627466153258
+    second: tac toe rules 8x_43
+  - first:
+      213: 2529680749297218454
+    second: tac toe rules 8x_44
+  - first:
+      213: 8361417294339573886
+    second: tac toe rules 8x_45
+  - first:
+      213: 6788184951255790828
+    second: tac toe rules 8x_46
+  - first:
+      213: 3109386221306918512
+    second: tac toe rules 8x_47
+  - first:
+      213: -8440844799889033706
+    second: tac toe rules 8x_48
+  - first:
+      213: 1390472747369653651
+    second: tac toe rules 8x_49
+  - first:
+      213: 294179647543142903
+    second: tac toe rules 8x_50
+  - first:
+      213: 180213930604695436
+    second: tac toe rules 8x_51
+  - first:
+      213: -4106108721462601470
+    second: tac toe rules 8x_52
+  - first:
+      213: 7389532376442540274
+    second: tac toe rules 8x_53
+  - first:
+      213: -4254973593938716665
+    second: tac toe rules 8x_54
+  - first:
+      213: -8968267204839254683
+    second: tac toe rules 8x_55
+  - first:
+      213: 6013796118675723369
+    second: tac toe rules 8x_56
+  - first:
+      213: -2867595480019555941
+    second: tac toe rules 8x_57
+  - first:
+      213: -2428736695618758136
+    second: tac toe rules 8x_58
+  - first:
+      213: -7576091940907448906
+    second: tac toe rules 8x_59
+  - first:
+      213: -4577412565820207715
+    second: tac toe rules 8x_60
+  - first:
+      213: 7292756559761245323
+    second: tac toe rules 8x_61
+  - first:
+      213: -111315853023302885
+    second: tac toe rules 8x_62
+  - first:
+      213: -7823248337466203761
+    second: tac toe rules 8x_63
+  - first:
+      213: 2728519428910302058
+    second: tac toe rules 8x_64
+  - first:
+      213: -7995566006391284354
+    second: tac toe rules 8x_65
+  - first:
+      213: -6476686882650117119
+    second: tac toe rules 8x_66
+  - first:
+      213: -7449864442729762401
+    second: tac toe rules 8x_67
+  - first:
+      213: -7613498449592764107
+    second: tac toe rules 8x_68
+  - first:
+      213: 5185035977505233786
+    second: tac toe rules 8x_69
+  - first:
+      213: -3050064093922605163
+    second: tac toe rules 8x_70
+  - first:
+      213: -2840739818724466020
+    second: tac toe rules 8x_71
+  - first:
+      213: -7905899160399072039
+    second: tac toe rules 8x_72
+  - first:
+      213: -5193916027383232806
+    second: tac toe rules 8x_73
+  - first:
+      213: 5390464888381518920
+    second: tac toe rules 8x_74
+  - first:
+      213: 1120695651419498423
+    second: tac toe rules 8x_75
+  - first:
+      213: 6265365494315545124
+    second: tac toe rules 8x_76
+  - first:
+      213: 7228328092041788653
+    second: tac toe rules 8x_77
+  - first:
+      213: -460646184332751193
+    second: tac toe rules 8x_78
+  - first:
+      213: 5796996072753787871
+    second: tac toe rules 8x_79
+  - first:
+      213: -6153200247340341280
+    second: tac toe rules 8x_80
+  - first:
+      213: 6918599158577582637
+    second: tac toe rules 8x_81
+  - first:
+      213: -2746747195467317556
+    second: tac toe rules 8x_82
+  - first:
+      213: 8320819364198080142
+    second: tac toe rules 8x_83
+  - first:
+      213: -5749555240748066799
+    second: tac toe rules 8x_84
+  - first:
+      213: 1957921464154247480
+    second: tac toe rules 8x_85
+  - first:
+      213: 4216454566695175349
+    second: tac toe rules 8x_86
+  - first:
+      213: 1646855154104791410
+    second: tac toe rules 8x_87
+  - first:
+      213: 920364965037890661
+    second: tac toe rules 8x_88
+  - first:
+      213: -3435700511232847456
+    second: tac toe rules 8x_89
+  - first:
+      213: 4183955908058922123
+    second: tac toe rules 8x_90
+  - first:
+      213: 501695646250436259
+    second: tac toe rules 8x_91
+  - first:
+      213: 5397928289347364052
+    second: tac toe rules 8x_92
+  - first:
+      213: 8481534925523803652
+    second: tac toe rules 8x_93
+  - first:
+      213: 6586058420837592448
+    second: tac toe rules 8x_94
+  - first:
+      213: 3637686810579861912
+    second: tac toe rules 8x_95
+  - first:
+      213: -5114463005260370273
+    second: tac toe rules 8x_96
+  - first:
+      213: 5783049891796035296
+    second: tac toe rules 8x_97
+  - first:
+      213: -3303025657633108741
+    second: tac toe rules 8x_98
+  - first:
+      213: -3082657279160800158
+    second: tac toe rules 8x_99
+  - first:
+      213: 4574337318289146768
+    second: tac toe rules 8x_100
+  - first:
+      213: -9028232619923040305
+    second: tac toe rules 8x_101
+  - first:
+      213: -5220266008564356610
+    second: tac toe rules 8x_102
+  - first:
+      213: 741722945876486709
+    second: tac toe rules 8x_103
+  - first:
+      213: -2110849589356763848
+    second: tac toe rules 8x_104
+  - first:
+      213: -837867729741385299
+    second: tac toe rules 8x_105
+  - first:
+      213: -3229080691993337646
+    second: tac toe rules 8x_106
+  - first:
+      213: 2626821618415510156
+    second: tac toe rules 8x_107
+  - first:
+      213: 7027403561898623777
+    second: tac toe rules 8x_108
+  - first:
+      213: 2133577490899336764
+    second: tac toe rules 8x_109
+  - first:
+      213: -5859973892804599675
+    second: tac toe rules 8x_110
+  - first:
+      213: 2760627412863926547
+    second: tac toe rules 8x_111
+  - first:
+      213: 6340156125542166996
+    second: tac toe rules 8x_112
+  - first:
+      213: -8121184152375276263
+    second: tac toe rules 8x_113
+  - first:
+      213: -6884157703091595934
+    second: tac toe rules 8x_114
+  - first:
+      213: 1467054225846763842
+    second: tac toe rules 8x_115
+  - first:
+      213: 3844202244720586743
+    second: tac toe rules 8x_116
+  - first:
+      213: -7355345418879190571
+    second: tac toe rules 8x_117
+  - first:
+      213: -1521109418662780008
+    second: tac toe rules 8x_118
+  - first:
+      213: -2336960679973006558
+    second: tac toe rules 8x_119
+  - first:
+      213: 217092141379923630
+    second: tac toe rules 8x_120
+  - first:
+      213: -2389880902661397468
+    second: tac toe rules 8x_121
+  - first:
+      213: 8371489197528763241
+    second: tac toe rules 8x_122
+  - first:
+      213: 4444553201871660534
+    second: tac toe rules 8x_123
+  - first:
+      213: -8878065851893908795
+    second: tac toe rules 8x_124
+  - first:
+      213: 5031784067885936936
+    second: tac toe rules 8x_125
+  - first:
+      213: -6465644275872098091
+    second: tac toe rules 8x_126
+  - first:
+      213: 2696883809840203349
+    second: tac toe rules 8x_127
+  - first:
+      213: -2733986670595034656
+    second: tac toe rules 8x_128
+  - first:
+      213: 1030241920438314115
+    second: tac toe rules 8x_129
+  - first:
+      213: 9140733177925518617
+    second: tac toe rules 8x_130
+  - first:
+      213: -6816707892072817347
+    second: tac toe rules 8x_131
+  - first:
+      213: -7608117416696053184
+    second: tac toe rules 8x_132
+  - first:
+      213: 4319893321274469299
+    second: tac toe rules 8x_133
+  - first:
+      213: 3572810067592591708
+    second: tac toe rules 8x_134
+  - first:
+      213: 4700944881118448848
+    second: tac toe rules 8x_135
+  - first:
+      213: 6895005861522717592
+    second: tac toe rules 8x_136
+  - first:
+      213: -8652920399016908044
+    second: tac toe rules 8x_137
+  - first:
+      213: -4636164010008046050
+    second: tac toe rules 8x_138
+  - first:
+      213: -4087487646715879143
+    second: tac toe rules 8x_139
+  - first:
+      213: 8401365256413690419
+    second: tac toe rules 8x_140
+  - first:
+      213: -1370423465093885862
+    second: tac toe rules 8x_141
+  - first:
+      213: 9171265855863996109
+    second: tac toe rules 8x_142
+  - first:
+      213: -3545107941121372494
+    second: tac toe rules 8x_143
+  - first:
+      213: -5621594508595045236
+    second: tac toe rules 8x_144
+  - first:
+      213: -6423546534587760757
+    second: tac toe rules 8x_145
+  - first:
+      213: 6447422804096137982
+    second: tac toe rules 8x_146
+  - first:
+      213: 8595165242458634706
+    second: tac toe rules 8x_147
+  - first:
+      213: -8820096659102056347
+    second: tac toe rules 8x_148
+  - first:
+      213: 1691956175818475719
+    second: tac toe rules 8x_149
+  - first:
+      213: 2269010634630566796
+    second: tac toe rules 8x_150
+  - first:
+      213: 7194125110648252898
+    second: tac toe rules 8x_151
+  - first:
+      213: 4649413653023270403
+    second: tac toe rules 8x_152
+  - first:
+      213: 5994159266593157143
+    second: tac toe rules 8x_153
+  - first:
+      213: -559909503722265978
+    second: tac toe rules 8x_154
+  - first:
+      213: 3226579900707947148
+    second: tac toe rules 8x_155
+  - first:
+      213: 1828225828065737853
+    second: tac toe rules 8x_156
+  - first:
+      213: -1496696459136896386
+    second: tac toe rules 8x_157
+  - first:
+      213: -2938491143522341570
+    second: tac toe rules 8x_158
+  - first:
+      213: -2638745374343117029
+    second: tac toe rules 8x_159
+  - first:
+      213: -5185007548732109585
+    second: tac toe rules 8x_160
+  - first:
+      213: -7883589039753318262
+    second: tac toe rules 8x_161
+  - first:
+      213: 1871688730848851143
+    second: tac toe rules 8x_162
+  - first:
+      213: -1764394449332028624
+    second: tac toe rules 8x_163
+  - first:
+      213: -6179402006512968423
+    second: tac toe rules 8x_164
+  - first:
+      213: 4082684966543717134
+    second: tac toe rules 8x_165
+  - first:
+      213: 6272430943276891407
+    second: tac toe rules 8x_166
+  - first:
+      213: -4792942388934341162
+    second: tac toe rules 8x_167
+  - first:
+      213: -3439516271862301889
+    second: tac toe rules 8x_168
+  - first:
+      213: 2452207307327829302
+    second: tac toe rules 8x_169
+  - first:
+      213: -9036486926170002878
+    second: tac toe rules 8x_170
+  - first:
+      213: 2851957642518350048
+    second: tac toe rules 8x_171
+  - first:
+      213: 8670762072385780092
+    second: tac toe rules 8x_172
+  - first:
+      213: 6190497739113462940
+    second: tac toe rules 8x_173
+  - first:
+      213: -5870317069997622810
+    second: tac toe rules 8x_174
+  - first:
+      213: 6111940216015659628
+    second: tac toe rules 8x_175
+  - first:
+      213: 6330913108570937485
+    second: tac toe rules 8x_176
+  - first:
+      213: -6066159225871385754
+    second: tac toe rules 8x_177
+  - first:
+      213: -7014538553942219913
+    second: tac toe rules 8x_178
+  - first:
+      213: -1937847538352497781
+    second: tac toe rules 8x_179
+  - first:
+      213: 966724756668152052
+    second: tac toe rules 8x_180
+  - first:
+      213: 1857355875121072769
+    second: tac toe rules 8x_181
+  - first:
+      213: 6698905977516858094
+    second: tac toe rules 8x_182
+  - first:
+      213: -4780530561598295621
+    second: tac toe rules 8x_183
+  - first:
+      213: 1233861074403152979
+    second: tac toe rules 8x_184
+  - first:
+      213: 6767155394083047339
+    second: tac toe rules 8x_185
+  - first:
+      213: 1666850645120717993
+    second: tac toe rules 8x_186
+  - first:
+      213: -8928026528142116682
+    second: tac toe rules 8x_187
+  - first:
+      213: -7056624850347646057
+    second: tac toe rules 8x_188
+  - first:
+      213: -5217895642044314279
+    second: tac toe rules 8x_189
+  - first:
+      213: 1038741386025273399
+    second: tac toe rules 8x_190
+  - first:
+      213: 3502178226965173463
+    second: tac toe rules 8x_191
+  - first:
+      213: 4776550596391584800
+    second: tac toe rules 8x_192
+  - first:
+      213: -7497302230083013752
+    second: tac toe rules 8x_193
+  - first:
+      213: -556279449854687773
+    second: tac toe rules 8x_194
+  - first:
+      213: 3160630502354993563
+    second: tac toe rules 8x_195
+  - first:
+      213: -6387556717524502313
+    second: tac toe rules 8x_196
+  - first:
+      213: -7403031633632767110
+    second: tac toe rules 8x_197
+  - first:
+      213: -3463647684678699911
+    second: tac toe rules 8x_198
+  - first:
+      213: 3359541444572606225
+    second: tac toe rules 8x_199
+  - first:
+      213: -174644976699095390
+    second: tac toe rules 8x_200
+  - first:
+      213: -5470968633946511100
+    second: tac toe rules 8x_201
+  - first:
+      213: 5312464205344787409
+    second: tac toe rules 8x_202
+  - first:
+      213: -5295145430821678363
+    second: tac toe rules 8x_203
+  - first:
+      213: -7582810563079187536
+    second: tac toe rules 8x_204
+  - first:
+      213: 3345436034938105180
+    second: tac toe rules 8x_205
+  - first:
+      213: -2530054492303513176
+    second: tac toe rules 8x_206
+  - first:
+      213: -182143302455269014
+    second: tac toe rules 8x_207
+  - first:
+      213: 147654590181460053
+    second: tac toe rules 8x_208
+  - first:
+      213: -9134440041993857345
+    second: tac toe rules 8x_209
+  - first:
+      213: 308992435087216724
+    second: tac toe rules 8x_210
+  - first:
+      213: 763707069594814850
+    second: tac toe rules 8x_211
+  - first:
+      213: 7893127850441869762
+    second: tac toe rules 8x_212
+  - first:
+      213: 2756884121580709978
+    second: tac toe rules 8x_213
+  - first:
+      213: 1993978256168651186
+    second: tac toe rules 8x_214
+  - first:
+      213: 5952188860725782244
+    second: tac toe rules 8x_215
+  - first:
+      213: -2507518873308906585
+    second: tac toe rules 8x_216
+  - first:
+      213: -5398274026244966698
+    second: tac toe rules 8x_217
+  - first:
+      213: -3977047073423319430
+    second: tac toe rules 8x_218
+  - first:
+      213: -7024034080333822753
+    second: tac toe rules 8x_219
+  - first:
+      213: 1509883633793904338
+    second: tac toe rules 8x_220
+  - first:
+      213: 4644763725071715199
+    second: tac toe rules 8x_221
+  - first:
+      213: -8190482559869628123
+    second: tac toe rules 8x_222
+  - first:
+      213: 7653799801158375089
+    second: tac toe rules 8x_223
+  - first:
+      213: 8356393034608442460
+    second: tac toe rules 8x_224
+  - first:
+      213: 2953225744184658695
+    second: tac toe rules 8x_225
+  - first:
+      213: 3359721982549638279
+    second: tac toe rules 8x_226
+  - first:
+      213: -2886136335826961729
+    second: tac toe rules 8x_227
+  - first:
+      213: 8111380338239148047
+    second: tac toe rules 8x_228
+  - first:
+      213: -5339507323087451595
+    second: tac toe rules 8x_229
+  - first:
+      213: -6870599883934019447
+    second: tac toe rules 8x_230
+  - first:
+      213: -1962185519845483306
+    second: tac toe rules 8x_231
+  - first:
+      213: -2853299853717375084
+    second: tac toe rules 8x_232
+  - first:
+      213: 2073125190089084927
+    second: tac toe rules 8x_233
+  - first:
+      213: -877158045177891401
+    second: tac toe rules 8x_234
+  - first:
+      213: -1012719162978923029
+    second: tac toe rules 8x_235
+  - first:
+      213: -4137700557923721946
+    second: tac toe rules 8x_236
+  - first:
+      213: 8894227885986500657
+    second: tac toe rules 8x_237
+  - first:
+      213: -3057705260464506160
+    second: tac toe rules 8x_238
+  - first:
+      213: -8936563911142591313
+    second: tac toe rules 8x_239
+  - first:
+      213: -5040436224822261973
+    second: tac toe rules 8x_240
+  - first:
+      213: 6051948331334848635
+    second: tac toe rules 8x_241
+  - first:
+      213: 2478761719366619337
+    second: tac toe rules 8x_242
+  - first:
+      213: -839632277311288533
+    second: tac toe rules 8x_243
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tac toe rules 8x_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1932
+        width: 185
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ef776c2c6158980800000000000000
+      internalID: -8537392492801688056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1929
+        width: 144
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7aed5d731ac189c0800000000000000
+      internalID: -3926635215033865603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_2
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 1932
+        width: 70
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 571174014fedc6e70800000000000000
+      internalID: 9109901286090150261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_3
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 1929
+        width: 137
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985abf26a04eed050800000000000000
+      internalID: 5827345701125465481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_4
+      rect:
+        serializedVersion: 2
+        x: 516
+        y: 1929
+        width: 136
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3011d538a96e63780800000000000000
+      internalID: -8703515678543638269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_5
+      rect:
+        serializedVersion: 2
+        x: 678
+        y: 2039
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d897d1b3900992570800000000000000
+      internalID: 8442437345803598221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_6
+      rect:
+        serializedVersion: 2
+        x: 660
+        y: 1932
+        width: 43
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 478dd736855bab580800000000000000
+      internalID: -8810530329766012812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_7
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 1663
+        width: 157
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13dc90af44031fde0800000000000000
+      internalID: -1301205744522506959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_8
+      rect:
+        serializedVersion: 2
+        x: 366
+        y: 1663
+        width: 35
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 912e548883782edc0800000000000000
+      internalID: -3611175274323516903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_9
+      rect:
+        serializedVersion: 2
+        x: 1354
+        y: 1659
+        width: 135
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79f4d7c43cf385190800000000000000
+      internalID: -7973553032225009769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_10
+      rect:
+        serializedVersion: 2
+        x: 1543
+        y: 1659
+        width: 174
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19fb6620187b22320800000000000000
+      internalID: 2531787705254592401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_11
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 1663
+        width: 156
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13a0a81bf99ee1e30800000000000000
+      internalID: 4476271951740537393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_12
+      rect:
+        serializedVersion: 2
+        x: 1898
+        y: 1659
+        width: 159
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55e8b785ee93b2ca0800000000000000
+      internalID: -6040670779337896363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_13
+      rect:
+        serializedVersion: 2
+        x: 2105
+        y: 1659
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80ad4f7efdc575610800000000000000
+      internalID: 1609857508547287560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_14
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 1663
+        width: 128
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f809be45feefb83f0800000000000000
+      internalID: -897343396854919025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_15
+      rect:
+        serializedVersion: 2
+        x: 2614
+        y: 1659
+        width: 78
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10a66a0bab3a933c0800000000000000
+      internalID: -4379289140418156031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_16
+      rect:
+        serializedVersion: 2
+        x: 3684
+        y: 1663
+        width: 128
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc68a8cec44486580800000000000000
+      internalID: -8833735571910523188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_17
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 1826
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cdf4d0bb9f6f3e70800000000000000
+      internalID: 9097112486789053890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_18
+      rect:
+        serializedVersion: 2
+        x: 4003
+        y: 1614
+        width: 154
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c0ffddc081b2ce60800000000000000
+      internalID: 7981136656421875909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_19
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 1720
+        width: 75
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35f4121ec7d026360800000000000000
+      internalID: 7161301187476672339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_20
+      rect:
+        serializedVersion: 2
+        x: 412
+        y: 1659
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9acf298d4f2fbca40800000000000000
+      internalID: 5389668512498384041
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_21
+      rect:
+        serializedVersion: 2
+        x: 541
+        y: 1614
+        width: 142
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0b724d2cd862e70800000000000000
+      internalID: 9090108765816467639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_22
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1659
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6682c6ba2c9d90280800000000000000
+      internalID: -9076484143865649050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_23
+      rect:
+        serializedVersion: 2
+        x: 824
+        y: 1663
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88c4d739ab15a7310800000000000000
+      internalID: 1403524095659560072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_24
+      rect:
+        serializedVersion: 2
+        x: 901
+        y: 1659
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df48bf01cb6018700800000000000000
+      internalID: 540720835069707517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_25
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 1659
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2faf406a4a8e3dc50800000000000000
+      internalID: 6688945665432943346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_26
+      rect:
+        serializedVersion: 2
+        x: 1217
+        y: 1663
+        width: 127
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df4e3b62c33f6200800000000000000
+      internalID: 175415820606656473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_27
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1659
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3847783dcd1ba1720800000000000000
+      internalID: 2817760078873457795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_28
+      rect:
+        serializedVersion: 2
+        x: 2443
+        y: 1659
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1104ad3a0789bdb50800000000000000
+      internalID: 6619051686903824401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_29
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1659
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab1cae1673285c5f0800000000000000
+      internalID: -737039789627620934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_30
+      rect:
+        serializedVersion: 2
+        x: 2843
+        y: 1663
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35a3b2de327ccef80800000000000000
+      internalID: -8075861074665325997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_31
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 1663
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4564f25c1cb30790800000000000000
+      internalID: -7564996119215446710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_32
+      rect:
+        serializedVersion: 2
+        x: 3065
+        y: 1659
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f7f783ae19a512f0800000000000000
+      internalID: -1002709392962357263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_33
+      rect:
+        serializedVersion: 2
+        x: 3245
+        y: 1663
+        width: 201
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 929624a97fdfd7200800000000000000
+      internalID: 179578800051480873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_34
+      rect:
+        serializedVersion: 2
+        x: 3455
+        y: 1659
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d055ef6f305dc9d0800000000000000
+      internalID: -2752455563863043888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_35
+      rect:
+        serializedVersion: 2
+        x: 3600
+        y: 1663
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e5c7ce281b74e170800000000000000
+      internalID: 8206819764770162150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_36
+      rect:
+        serializedVersion: 2
+        x: 3817
+        y: 1663
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f2e38ff14b8bb100800000000000000
+      internalID: 124846530258789110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_37
+      rect:
+        serializedVersion: 2
+        x: 3872
+        y: 1663
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da2f92a5cddc0aa30800000000000000
+      internalID: 4224602796762722989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_38
+      rect:
+        serializedVersion: 2
+        x: 4194
+        y: 1659
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70d81029f06581ba0800000000000000
+      internalID: -6118045468908745465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_39
+      rect:
+        serializedVersion: 2
+        x: 4339
+        y: 1663
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4f4a3677f560de70800000000000000
+      internalID: 9137915757449596749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_40
+      rect:
+        serializedVersion: 2
+        x: 708
+        y: 1345
+        width: 212
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd2155d84f4a51910800000000000000
+      internalID: 1807532195709260507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_41
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1557
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ae2056a9a51832a0800000000000000
+      internalID: -6757627422485500251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_42
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1390
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 223cb11590570e4e0800000000000000
+      internalID: -1954433555402865886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_43
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1394
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2d05dbf8397b0150800000000000000
+      internalID: 5839894627466153258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_44
+      rect:
+        serializedVersion: 2
+        x: 2178
+        y: 1390
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69331091d3b3b1320800000000000000
+      internalID: 2529680749297218454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_45
+      rect:
+        serializedVersion: 2
+        x: 2263
+        y: 1394
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e780bef7ab8b90470800000000000000
+      internalID: 8361417294339573886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_46
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 1557
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce4f0417f3a743e50800000000000000
+      internalID: 6788184951255790828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_47
+      rect:
+        serializedVersion: 2
+        x: 3199
+        y: 1390
+        width: 135
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0763e764b42c62b20800000000000000
+      internalID: 3109386221306918512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_48
+      rect:
+        serializedVersion: 2
+        x: 3493
+        y: 1394
+        width: 36
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 616396240681cda80800000000000000
+      internalID: -8440844799889033706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_49
+      rect:
+        serializedVersion: 2
+        x: 212
+        y: 1390
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39564d0c893fb4310800000000000000
+      internalID: 1390472747369653651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_50
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 1394
+        width: 201
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f965ffa4d2251400800000000000000
+      internalID: 294179647543142903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_51
+      rect:
+        serializedVersion: 2
+        x: 575
+        y: 1347
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8f05457d9f308200800000000000000
+      internalID: 180213930604695436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_52
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 1390
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20996187fdb2407c0800000000000000
+      internalID: -4106108721462601470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_53
+      rect:
+        serializedVersion: 2
+        x: 1095
+        y: 1347
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f01b128b84ec8660800000000000000
+      internalID: 7389532376442540274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_54
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1390
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7089d946f0c43f4c0800000000000000
+      internalID: -4254973593938716665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_55
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 1390
+        width: 129
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56555cc3e705a8380800000000000000
+      internalID: -8968267204839254683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_56
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 1390
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9641a4d15bb457350800000000000000
+      internalID: 6013796118675723369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_57
+      rect:
+        serializedVersion: 2
+        x: 1674
+        y: 1394
+        width: 205
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b992be5aa114438d0800000000000000
+      internalID: -2867595480019555941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_58
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 1394
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80a10b4e7d46b4ed0800000000000000
+      internalID: -2428736695618758136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_59
+      rect:
+        serializedVersion: 2
+        x: 2400
+        y: 1390
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b5038405805cd690800000000000000
+      internalID: -7576091940907448906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_60
+      rect:
+        serializedVersion: 2
+        x: 2545
+        y: 1394
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9d80e70683c970c0800000000000000
+      internalID: -4577412565820207715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_61
+      rect:
+        serializedVersion: 2
+        x: 2600
+        y: 1394
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8408f1d373153560800000000000000
+      internalID: 7292756559761245323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_62
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 1390
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1b2daa42d6847ef0800000000000000
+      internalID: -111315853023302885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_63
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 1345
+        width: 143
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8169af161d3e6390800000000000000
+      internalID: -7823248337466203761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_64
+      rect:
+        serializedVersion: 2
+        x: 2981
+        y: 1394
+        width: 201
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6343fad6f5add520800000000000000
+      internalID: 2728519428910302058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_65
+      rect:
+        serializedVersion: 2
+        x: 3338
+        y: 1390
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ddbda541b0a0190800000000000000
+      internalID: -7995566006391284354
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_66
+      rect:
+        serializedVersion: 2
+        x: 3553
+        y: 1394
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10c253e589f2e16a0800000000000000
+      internalID: -6476686882650117119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_67
+      rect:
+        serializedVersion: 2
+        x: 188
+        y: 1124
+        width: 156
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91774aa2c3cc9890800000000000000
+      internalID: -7449864442729762401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_68
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 1124
+        width: 126
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53939068f7b675690800000000000000
+      internalID: -7613498449592764107
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_69
+      rect:
+        serializedVersion: 2
+        x: 661
+        y: 1124
+        width: 81
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7bd1d200c2f4f740800000000000000
+      internalID: 5185035977505233786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_70
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1288
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597c193dddefba5d0800000000000000
+      internalID: -3050064093922605163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_71
+      rect:
+        serializedVersion: 2
+        x: 1001
+        y: 1121
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c92ee9d8f2aa398d0800000000000000
+      internalID: -2840739818724466020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_72
+      rect:
+        serializedVersion: 2
+        x: 1273
+        y: 1124
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d4ba52d99a984290800000000000000
+      internalID: -7905899160399072039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_73
+      rect:
+        serializedVersion: 2
+        x: 1837
+        y: 1121
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad64d9244e08be7b0800000000000000
+      internalID: -5193916027383232806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_74
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1075
+        width: 154
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 844323e8147ceca40800000000000000
+      internalID: 5390464888381518920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_75
+      rect:
+        serializedVersion: 2
+        x: 2380
+        y: 1121
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b72f2cd1c28d8f00800000000000000
+      internalID: 1120695651419498423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_76
+      rect:
+        serializedVersion: 2
+        x: 2492
+        y: 1121
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 422faa4c8bc03f650800000000000000
+      internalID: 6265365494315545124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_77
+      rect:
+        serializedVersion: 2
+        x: 2577
+        y: 1124
+        width: 127
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: decb0263a1e205460800000000000000
+      internalID: 7228328092041788653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_78
+      rect:
+        serializedVersion: 2
+        x: 3253
+        y: 1124
+        width: 82
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ae05b76cb47b99f0800000000000000
+      internalID: -460646184332751193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_79
+      rect:
+        serializedVersion: 2
+        x: 3363
+        y: 1121
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd3f2d0e631137050800000000000000
+      internalID: 5796996072753787871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_80
+      rect:
+        serializedVersion: 2
+        x: 3448
+        y: 1124
+        width: 127
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7ee61e9f07b9aa0800000000000000
+      internalID: -6153200247340341280
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_81
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 1288
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d225556474dc30060800000000000000
+      internalID: 6918599158577582637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_82
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 1121
+        width: 135
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccebe568af791e9d0800000000000000
+      internalID: -2746747195467317556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_83
+      rect:
+        serializedVersion: 2
+        x: 4678
+        y: 1124
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8ed73b402d797370800000000000000
+      internalID: 8320819364198080142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_84
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1181
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 118d9b298f97530b0800000000000000
+      internalID: -5749555240748066799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_85
+      rect:
+        serializedVersion: 2
+        x: 489
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 831d609b23feb2b10800000000000000
+      internalID: 1957921464154247480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_86
+      rect:
+        serializedVersion: 2
+        x: 757
+        y: 1124
+        width: 36
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b48073b61bd38a30800000000000000
+      internalID: 4216454566695175349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_87
+      rect:
+        serializedVersion: 2
+        x: 798
+        y: 1124
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 271ffe8890ecad610800000000000000
+      internalID: 1646855154104791410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_88
+      rect:
+        serializedVersion: 2
+        x: 876
+        y: 1121
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56c5cc43f0bc5cc00800000000000000
+      internalID: 920364965037890661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_89
+      rect:
+        serializedVersion: 2
+        x: 1127
+        y: 1078
+        width: 134
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a196519690f150d0800000000000000
+      internalID: -3435700511232847456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_90
+      rect:
+        serializedVersion: 2
+        x: 1319
+        y: 1121
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8cbfb71bb5601a30800000000000000
+      internalID: 4183955908058922123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_91
+      rect:
+        serializedVersion: 2
+        x: 1448
+        y: 1075
+        width: 143
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a60e1c388166f600800000000000000
+      internalID: 501695646250436259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_92
+      rect:
+        serializedVersion: 2
+        x: 1586
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d4e4910e2b49ea40800000000000000
+      internalID: 5397928289347364052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_93
+      rect:
+        serializedVersion: 2
+        x: 1731
+        y: 1124
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40e5ae1e31774b570800000000000000
+      internalID: 8481534925523803652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_94
+      rect:
+        serializedVersion: 2
+        x: 1915
+        y: 1121
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08daef34d31666b50800000000000000
+      internalID: 6586058420837592448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_95
+      rect:
+        serializedVersion: 2
+        x: 2249
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8918cb481e8ab7230800000000000000
+      internalID: 3637686810579861912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_96
+      rect:
+        serializedVersion: 2
+        x: 2721
+        y: 1124
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9e249a8ef6c509b0800000000000000
+      internalID: -5114463005260370273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_97
+      rect:
+        serializedVersion: 2
+        x: 2796
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e62dd69c35814050800000000000000
+      internalID: 5783049891796035296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_98
+      rect:
+        serializedVersion: 2
+        x: 2934
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfc07c02aab4922d0800000000000000
+      internalID: -3303025657633108741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_99
+      rect:
+        serializedVersion: 2
+        x: 3112
+        y: 1121
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26c295789833835d0800000000000000
+      internalID: -3082657279160800158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_100
+      rect:
+        serializedVersion: 2
+        x: 3585
+        y: 1121
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 093007b1e8f4b7f30800000000000000
+      internalID: 4574337318289146768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_101
+      rect:
+        serializedVersion: 2
+        x: 3730
+        y: 1124
+        width: 36
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc794eb044645b280800000000000000
+      internalID: -9028232619923040305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_102
+      rect:
+        serializedVersion: 2
+        x: 3785
+        y: 1124
+        width: 80
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef9a97e29b3ed87b0800000000000000
+      internalID: -5220266008564356610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_103
+      rect:
+        serializedVersion: 2
+        x: 3897
+        y: 1121
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a69b6e6112b4a00800000000000000
+      internalID: 741722945876486709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_104
+      rect:
+        serializedVersion: 2
+        x: 4021
+        y: 1075
+        width: 142
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8356c147b71c4b2e0800000000000000
+      internalID: -2110849589356763848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_105
+      rect:
+        serializedVersion: 2
+        x: 4166
+        y: 1124
+        width: 201
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da170003dbb4f54f0800000000000000
+      internalID: -837867729741385299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_106
+      rect:
+        serializedVersion: 2
+        x: 4524
+        y: 1121
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d02aa218300033d0800000000000000
+      internalID: -3229080691993337646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_107
+      rect:
+        serializedVersion: 2
+        x: 4726
+        y: 1121
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8229fd2858547420800000000000000
+      internalID: 2626821618415510156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_108
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 1019
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12348488e4a568160800000000000000
+      internalID: 7027403561898623777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_109
+      rect:
+        serializedVersion: 2
+        x: 1096
+        y: 813
+        width: 70
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3ef2dd7c6dfb9d10800000000000000
+      internalID: 2133577490899336764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_110
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 855
+        width: 126
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 580a15ebac03daea0800000000000000
+      internalID: -5859973892804599675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_111
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 1019
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 311c5fc6108bf4620800000000000000
+      internalID: 2760627412863926547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_112
+      rect:
+        serializedVersion: 2
+        x: 2006
+        y: 852
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d135739762ccf750800000000000000
+      internalID: 6340156125542166996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_113
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91dc3229a02cb4f80800000000000000
+      internalID: -8121184152375276263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_114
+      rect:
+        serializedVersion: 2
+        x: 2282
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 265d479fa0f8670a0800000000000000
+      internalID: -6884157703091595934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_115
+      rect:
+        serializedVersion: 2
+        x: 2809
+        y: 852
+        width: 148
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24105ddab060c5410800000000000000
+      internalID: 1467054225846763842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_116
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 1019
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ff6459f299595530800000000000000
+      internalID: 3844202244720586743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_117
+      rect:
+        serializedVersion: 2
+        x: 3290
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d9b863df409ce990800000000000000
+      internalID: -7355345418879190571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_118
+      rect:
+        serializedVersion: 2
+        x: 3344
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893aa1cfa0fe3eae0800000000000000
+      internalID: -1521109418662780008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_119
+      rect:
+        serializedVersion: 2
+        x: 3864
+        y: 852
+        width: 135
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2235720b4a2719fd0800000000000000
+      internalID: -2336960679973006558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_120
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 1019
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaeaa720724430300800000000000000
+      internalID: 217092141379923630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_121
+      rect:
+        serializedVersion: 2
+        x: 4064
+        y: 806
+        width: 285
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 424a06d2bff65ded0800000000000000
+      internalID: -2389880902661397468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_122
+      rect:
+        serializedVersion: 2
+        x: 4783
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96bc8b332118d2470800000000000000
+      internalID: 8371489197528763241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_123
+      rect:
+        serializedVersion: 2
+        x: 4837
+        y: 855
+        width: 36
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f5a2eeb6993ead30800000000000000
+      internalID: 4444553201871660534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_124
+      rect:
+        serializedVersion: 2
+        x: 5015
+        y: 813
+        width: 70
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ca765d4526cac480800000000000000
+      internalID: -8878065851893908795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_125
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 855
+        width: 36
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 821bfc043fc74d540800000000000000
+      internalID: 5031784067885936936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_126
+      rect:
+        serializedVersion: 2
+        x: 274
+        y: 855
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d81b9c99ca6546a0800000000000000
+      internalID: -6465644275872098091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_127
+      rect:
+        serializedVersion: 2
+        x: 450
+        y: 852
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 556070e49814d6520800000000000000
+      internalID: 2696883809840203349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_128
+      rect:
+        serializedVersion: 2
+        x: 635
+        y: 855
+        width: 81
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1b78ebb9dee0ad0800000000000000
+      internalID: -2733986670595034656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_129
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 852
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384217471972c4e00800000000000000
+      internalID: 1030241920438314115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_130
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 855
+        width: 205
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 915c0e845686ade70800000000000000
+      internalID: 9140733177925518617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_131
+      rect:
+        serializedVersion: 2
+        x: 1316
+        y: 852
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3dd563e9403661a0800000000000000
+      internalID: -6816707892072817347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_132
+      rect:
+        serializedVersion: 2
+        x: 1471
+        y: 855
+        width: 80
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0428e50e4898a6690800000000000000
+      internalID: -7608117416696053184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_133
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 855
+        width: 36
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bba522861853fb30800000000000000
+      internalID: 4319893321274469299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_134
+      rect:
+        serializedVersion: 2
+        x: 1599
+        y: 855
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c59bbc0b3db259130800000000000000
+      internalID: 3572810067592591708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_135
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 852
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dc81c3767c1d3140800000000000000
+      internalID: 4700944881118448848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_136
+      rect:
+        serializedVersion: 2
+        x: 1876
+        y: 855
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89b3c4cbc4bffaf50800000000000000
+      internalID: 6895005861522717592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_137
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 852
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4faadd20eb6aae780800000000000000
+      internalID: -8652920399016908044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_138
+      rect:
+        serializedVersion: 2
+        x: 2321
+        y: 806
+        width: 143
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e161507756909afb0800000000000000
+      internalID: -4636164010008046050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_139
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 811
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 911e3b944a35647c0800000000000000
+      internalID: -4087487646715879143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_140
+      rect:
+        serializedVersion: 2
+        x: 2526
+        y: 855
+        width: 143
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33ab8d83035a79470800000000000000
+      internalID: 8401365256413690419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_141
+      rect:
+        serializedVersion: 2
+        x: 2664
+        y: 852
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a50183b8e174bfce0800000000000000
+      internalID: -1370423465093885862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_142
+      rect:
+        serializedVersion: 2
+        x: 2965
+        y: 855
+        width: 35
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dce317754b1e64f70800000000000000
+      internalID: 9171265855863996109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_143
+      rect:
+        serializedVersion: 2
+        x: 3012
+        y: 852
+        width: 129
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2be4b0f3c1f3dcec0800000000000000
+      internalID: -3545107941121372494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_144
+      rect:
+        serializedVersion: 2
+        x: 3145
+        y: 852
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8cd7e334951cf1b0800000000000000
+      internalID: -5621594508595045236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_145
+      rect:
+        serializedVersion: 2
+        x: 3383
+        y: 806
+        width: 143
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8f74bfc57afad6a0800000000000000
+      internalID: -6423546534587760757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_146
+      rect:
+        serializedVersion: 2
+        x: 3500
+        y: 811
+        width: 39
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: efa37e261e8d97950800000000000000
+      internalID: 6447422804096137982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_147
+      rect:
+        serializedVersion: 2
+        x: 3597
+        y: 852
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d9f786bf39284770800000000000000
+      internalID: 8595165242458634706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_148
+      rect:
+        serializedVersion: 2
+        x: 3752
+        y: 855
+        width: 80
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 560cc95c1d8b89580800000000000000
+      internalID: -8820096659102056347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_149
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 855
+        width: 36
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c840337d290b7710800000000000000
+      internalID: 1691956175818475719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_150
+      rect:
+        serializedVersion: 2
+        x: 4347
+        y: 852
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c831db486252d7f10800000000000000
+      internalID: 2269010634630566796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_151
+      rect:
+        serializedVersion: 2
+        x: 4502
+        y: 855
+        width: 127
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e928e90caaa6d360800000000000000
+      internalID: 7194125110648252898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_152
+      rect:
+        serializedVersion: 2
+        x: 4638
+        y: 852
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 306ad427519068040800000000000000
+      internalID: 4649413653023270403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_153
+      rect:
+        serializedVersion: 2
+        x: 4876
+        y: 806
+        width: 142
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710b66438188f2350800000000000000
+      internalID: 5994159266593157143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_154
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 749
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 682e44cd54dca38f0800000000000000
+      internalID: -559909503722265978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_155
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 583
+        width: 77
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c82cc15135d17cc20800000000000000
+      internalID: 3226579900707947148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_156
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 586
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7c7d0b44b92f5910800000000000000
+      internalID: 1828225828065737853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_157
+      rect:
+        serializedVersion: 2
+        x: 1162
+        y: 537
+        width: 154
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e727f80108aaa3be0800000000000000
+      internalID: -1496696459136896386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_158
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 586
+        width: 206
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3d28beafd16837d0800000000000000
+      internalID: -2938491143522341570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_159
+      rect:
+        serializedVersion: 2
+        x: 410
+        y: 586
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b17c29d001b416bd0800000000000000
+      internalID: -2638745374343117029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_160
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 586
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fec8a141b172b08b0800000000000000
+      internalID: -5185007548732109585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_161
+      rect:
+        serializedVersion: 2
+        x: 602
+        y: 583
+        width: 127
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a803752998dd79290800000000000000
+      internalID: -7883589039753318262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_162
+      rect:
+        serializedVersion: 2
+        x: 990
+        y: 583
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c4f85cebf299f910800000000000000
+      internalID: 1871688730848851143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_163
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 583
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03bb4e3b89c9387e0800000000000000
+      internalID: -1764394449332028624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_164
+      rect:
+        serializedVersion: 2
+        x: 1458
+        y: 586
+        width: 201
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91d557d6d9a5e3aa0800000000000000
+      internalID: -6179402006512968423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_165
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 583
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e037aa8985c98a830800000000000000
+      internalID: 4082684966543717134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_166
+      rect:
+        serializedVersion: 2
+        x: 1820
+        y: 586
+        width: 37
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0dff2cc5b62c0750800000000000000
+      internalID: 6272430943276891407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_167
+      rect:
+        serializedVersion: 2
+        x: 242
+        y: 317
+        width: 38
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dd08a69a4c0c7db0800000000000000
+      internalID: -4792942388934341162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_168
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 317
+        width: 82
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3bb8709c226440d0800000000000000
+      internalID: -3439516271862301889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_169
+      rect:
+        serializedVersion: 2
+        x: 548
+        y: 317
+        width: 36
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63574ecbd8df70220800000000000000
+      internalID: 2452207307327829302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_170
+      rect:
+        serializedVersion: 2
+        x: 603
+        y: 317
+        width: 36
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 24aec2c9403f79280800000000000000
+      internalID: -9036486926170002878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_171
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 480
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e844c49d50349720800000000000000
+      internalID: 2851957642518350048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_172
+      rect:
+        serializedVersion: 2
+        x: 2553
+        y: 317
+        width: 82
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c79fb784a2cb45870800000000000000
+      internalID: 8670762072385780092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_173
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 480
+        width: 35
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9c77b225e019e550800000000000000
+      internalID: 6190497739113462940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_174
+      rect:
+        serializedVersion: 2
+        x: 2691
+        y: 317
+        width: 36
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e931e32ab1788ea0800000000000000
+      internalID: -5870317069997622810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_175
+      rect:
+        serializedVersion: 2
+        x: 2746
+        y: 317
+        width: 35
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62a9087e39f1d450800000000000000
+      internalID: 6111940216015659628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_176
+      rect:
+        serializedVersion: 2
+        x: 2931
+        y: 313
+        width: 134
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d881c3cfdebebd750800000000000000
+      internalID: 6330913108570937485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_177
+      rect:
+        serializedVersion: 2
+        x: 3398
+        y: 313
+        width: 135
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b3afee25ca0dba0800000000000000
+      internalID: -6066159225871385754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_178
+      rect:
+        serializedVersion: 2
+        x: 4071
+        y: 317
+        width: 35
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 773edfc895a57ae90800000000000000
+      internalID: -7014538553942219913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_179
+      rect:
+        serializedVersion: 2
+        x: 4648
+        y: 317
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b52a75ee16b15e0800000000000000
+      internalID: -1937847538352497781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_180
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 374
+        width: 74
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f8f7c45b0f7a6d00800000000000000
+      internalID: 966724756668152052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_181
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 313
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18a8316e357a6c910800000000000000
+      internalID: 1857355875121072769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_182
+      rect:
+        serializedVersion: 2
+        x: 698
+        y: 317
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eea12a58e7b47fc50800000000000000
+      internalID: 6698905977516858094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_183
+      rect:
+        serializedVersion: 2
+        x: 842
+        y: 317
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb1f80658c428adb0800000000000000
+      internalID: -4780530561598295621
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_184
+      rect:
+        serializedVersion: 2
+        x: 897
+        y: 317
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3545bf12c1e8f1110800000000000000
+      internalID: 1233861074403152979
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_185
+      rect:
+        serializedVersion: 2
+        x: 1034
+        y: 313
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7403c1af3c9ed50800000000000000
+      internalID: 6767155394083047339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_186
+      rect:
+        serializedVersion: 2
+        x: 1212
+        y: 313
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a41d0494d7d12710800000000000000
+      internalID: 1666850645120717993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_187
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 270
+        width: 134
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b833d4ec27491480800000000000000
+      internalID: -8928026528142116682
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_188
+      rect:
+        serializedVersion: 2
+        x: 1497
+        y: 313
+        width: 126
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 793a5d11615d11e90800000000000000
+      internalID: -7056624850347646057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_189
+      rect:
+        serializedVersion: 2
+        x: 1633
+        y: 313
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95dc3e42f8f4697b0800000000000000
+      internalID: -5217895642044314279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_190
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 317
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738888f79c95a6e00800000000000000
+      internalID: 1038741386025273399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_191
+      rect:
+        serializedVersion: 2
+        x: 1853
+        y: 313
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4dd56ca8c3a9030800000000000000
+      internalID: 3502178226965173463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_192
+      rect:
+        serializedVersion: 2
+        x: 1991
+        y: 313
+        width: 127
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 024c99dc577b94240800000000000000
+      internalID: 4776550596391584800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_193
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 313
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 883782a185b34f790800000000000000
+      internalID: -7497302230083013752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_194
+      rect:
+        serializedVersion: 2
+        x: 2307
+        y: 317
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e5cf83a9c2b748f0800000000000000
+      internalID: -556279449854687773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_195
+      rect:
+        serializedVersion: 2
+        x: 2381
+        y: 313
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b91422732b0dcdb20800000000000000
+      internalID: 3160630502354993563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_196
+      rect:
+        serializedVersion: 2
+        x: 2650
+        y: 317
+        width: 35
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d8ba451207da57a0800000000000000
+      internalID: -6387556717524502313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_197
+      rect:
+        serializedVersion: 2
+        x: 2793
+        y: 313
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73d650c3f5234990800000000000000
+      internalID: -7403031633632767110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_198
+      rect:
+        serializedVersion: 2
+        x: 3116
+        y: 313
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9743f9f28c6aeefc0800000000000000
+      internalID: -3463647684678699911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_199
+      rect:
+        serializedVersion: 2
+        x: 3261
+        y: 317
+        width: 127
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 11fe3fbe42d7f9e20800000000000000
+      internalID: 3359541444572606225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_200
+      rect:
+        serializedVersion: 2
+        x: 3592
+        y: 317
+        width: 126
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a64b0aa159839df0800000000000000
+      internalID: -174644976699095390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_201
+      rect:
+        serializedVersion: 2
+        x: 3729
+        y: 313
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 409605c83073314b0800000000000000
+      internalID: -5470968633946511100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_202
+      rect:
+        serializedVersion: 2
+        x: 3924
+        y: 270
+        width: 135
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1dbcd815c0aa9b940800000000000000
+      internalID: 5312464205344787409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_203
+      rect:
+        serializedVersion: 2
+        x: 4117
+        y: 313
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e257d9194dd386b0800000000000000
+      internalID: -5295145430821678363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_204
+      rect:
+        serializedVersion: 2
+        x: 4246
+        y: 268
+        width: 142
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3d594e7f174c690800000000000000
+      internalID: -7582810563079187536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_205
+      rect:
+        serializedVersion: 2
+        x: 4384
+        y: 313
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5de64159506d6e20800000000000000
+      internalID: 3345436034938105180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_206
+      rect:
+        serializedVersion: 2
+        x: 4529
+        y: 317
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a92ed318d073ecd0800000000000000
+      internalID: -2530054492303513176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_207
+      rect:
+        serializedVersion: 2
+        x: 4784
+        y: 313
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a69efe6a1a5e87df0800000000000000
+      internalID: -182143302455269014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_208
+      rect:
+        serializedVersion: 2
+        x: 4922
+        y: 313
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 558c83541139c0200800000000000000
+      internalID: 147654590181460053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_209
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 44
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb61ada9d23fb3180800000000000000
+      internalID: -9134440041993857345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_210
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 48
+        width: 126
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45018ab8bf2c94400800000000000000
+      internalID: 308992435087216724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_211
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 211
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28947a3988b399a00800000000000000
+      internalID: 763707069594814850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_212
+      rect:
+        serializedVersion: 2
+        x: 1771
+        y: 44
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c9845cd5f50a8d60800000000000000
+      internalID: 7893127850441869762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_213
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 48
+        width: 127
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58abb1808b624620800000000000000
+      internalID: 2756884121580709978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_214
+      rect:
+        serializedVersion: 2
+        x: 2166
+        y: 0
+        width: 154
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b909c0d8a80cab10800000000000000
+      internalID: 1993978256168651186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_215
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 211
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e6e8979b3c6a9250800000000000000
+      internalID: 5952188860725782244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_216
+      rect:
+        serializedVersion: 2
+        x: 3256
+        y: 44
+        width: 134
+        height: 201
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7abb5d0ced0833dd0800000000000000
+      internalID: -2507518873308906585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_217
+      rect:
+        serializedVersion: 2
+        x: 4112
+        y: 44
+        width: 77
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d67379df5a7515b0800000000000000
+      internalID: -5398274026244966698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_218
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 211
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7e989d02c0bec8c0800000000000000
+      internalID: -3977047073423319430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_219
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 48
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd40777083e958e90800000000000000
+      internalID: -7024034080333822753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_220
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 44
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de267c4a2f24f410800000000000000
+      internalID: 1509883633793904338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_221
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 44
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7b058abff3857040800000000000000
+      internalID: 4644763725071715199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_222
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 48
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52150ffb18f855e80800000000000000
+      internalID: -8190482559869628123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_223
+      rect:
+        serializedVersion: 2
+        x: 927
+        y: 48
+        width: 127
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b6100a1e52c73a60800000000000000
+      internalID: 7653799801158375089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_224
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 44
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5c726fd03fd7f370800000000000000
+      internalID: 8356393034608442460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_225
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 48
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70b4aafda27fbf820800000000000000
+      internalID: 2953225744184658695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_226
+      rect:
+        serializedVersion: 2
+        x: 1364
+        y: 44
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78c31f1b75120ae20800000000000000
+      internalID: 3359721982549638279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_227
+      rect:
+        serializedVersion: 2
+        x: 1502
+        y: 48
+        width: 205
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fbabfa14b4262f7d0800000000000000
+      internalID: -2886136335826961729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_228
+      rect:
+        serializedVersion: 2
+        x: 1681
+        y: 4
+        width: 39
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0015d21179619070800000000000000
+      internalID: 8111380338239148047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_229
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 44
+        width: 134
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53a86cb216246e5b0800000000000000
+      internalID: -5339507323087451595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_230
+      rect:
+        serializedVersion: 2
+        x: 2316
+        y: 44
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 980d54cbec9b6a0a0800000000000000
+      internalID: -6870599883934019447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_231
+      rect:
+        serializedVersion: 2
+        x: 2461
+        y: 48
+        width: 201
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dcd1327aaae4c4e0800000000000000
+      internalID: -1962185519845483306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_232
+      rect:
+        serializedVersion: 2
+        x: 2673
+        y: 44
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497708586ea0768d0800000000000000
+      internalID: -2853299853717375084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_233
+      rect:
+        serializedVersion: 2
+        x: 2858
+        y: 48
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fff8c22606835cc10800000000000000
+      internalID: 2073125190089084927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_234
+      rect:
+        serializedVersion: 2
+        x: 2906
+        y: 44
+        width: 128
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b5bb41c765b3d3f0800000000000000
+      internalID: -877158045177891401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_235
+      rect:
+        serializedVersion: 2
+        x: 3078
+        y: 44
+        width: 142
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bed0961794912f1f0800000000000000
+      internalID: -1012719162978923029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_236
+      rect:
+        serializedVersion: 2
+        x: 3409
+        y: 48
+        width: 81
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d550ad34fe396c0800000000000000
+      internalID: -4137700557923721946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_237
+      rect:
+        serializedVersion: 2
+        x: 3482
+        y: 44
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130599f7325ae6b70800000000000000
+      internalID: 8894227885986500657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_238
+      rect:
+        serializedVersion: 2
+        x: 3611
+        y: 48
+        width: 205
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0da7b2a1449d095d0800000000000000
+      internalID: -3057705260464506160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_239
+      rect:
+        serializedVersion: 2
+        x: 3852
+        y: 44
+        width: 143
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa435c38872faf380800000000000000
+      internalID: -8936563911142591313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_240
+      rect:
+        serializedVersion: 2
+        x: 4007
+        y: 48
+        width: 80
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b27457a75f5cc0ab0800000000000000
+      internalID: -5040436224822261973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_241
+      rect:
+        serializedVersion: 2
+        x: 4197
+        y: 48
+        width: 36
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b705b3851f6dcf350800000000000000
+      internalID: 6051948331334848635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_242
+      rect:
+        serializedVersion: 2
+        x: 4245
+        y: 44
+        width: 133
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c01fa596a4566220800000000000000
+      internalID: 2478761719366619337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tac toe rules 8x_243
+      rect:
+        serializedVersion: 2
+        x: 4395
+        y: 48
+        width: 38
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2b88e074e60954f0800000000000000
+      internalID: -839632277311288533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      tac toe rules 8x_0: -8537392492801688056
+      tac toe rules 8x_1: -3926635215033865603
+      tac toe rules 8x_10: 2531787705254592401
+      tac toe rules 8x_100: 4574337318289146768
+      tac toe rules 8x_101: -9028232619923040305
+      tac toe rules 8x_102: -5220266008564356610
+      tac toe rules 8x_103: 741722945876486709
+      tac toe rules 8x_104: -2110849589356763848
+      tac toe rules 8x_105: -837867729741385299
+      tac toe rules 8x_106: -3229080691993337646
+      tac toe rules 8x_107: 2626821618415510156
+      tac toe rules 8x_108: 7027403561898623777
+      tac toe rules 8x_109: 2133577490899336764
+      tac toe rules 8x_11: 4476271951740537393
+      tac toe rules 8x_110: -5859973892804599675
+      tac toe rules 8x_111: 2760627412863926547
+      tac toe rules 8x_112: 6340156125542166996
+      tac toe rules 8x_113: -8121184152375276263
+      tac toe rules 8x_114: -6884157703091595934
+      tac toe rules 8x_115: 1467054225846763842
+      tac toe rules 8x_116: 3844202244720586743
+      tac toe rules 8x_117: -7355345418879190571
+      tac toe rules 8x_118: -1521109418662780008
+      tac toe rules 8x_119: -2336960679973006558
+      tac toe rules 8x_12: -6040670779337896363
+      tac toe rules 8x_120: 217092141379923630
+      tac toe rules 8x_121: -2389880902661397468
+      tac toe rules 8x_122: 8371489197528763241
+      tac toe rules 8x_123: 4444553201871660534
+      tac toe rules 8x_124: -8878065851893908795
+      tac toe rules 8x_125: 5031784067885936936
+      tac toe rules 8x_126: -6465644275872098091
+      tac toe rules 8x_127: 2696883809840203349
+      tac toe rules 8x_128: -2733986670595034656
+      tac toe rules 8x_129: 1030241920438314115
+      tac toe rules 8x_13: 1609857508547287560
+      tac toe rules 8x_130: 9140733177925518617
+      tac toe rules 8x_131: -6816707892072817347
+      tac toe rules 8x_132: -7608117416696053184
+      tac toe rules 8x_133: 4319893321274469299
+      tac toe rules 8x_134: 3572810067592591708
+      tac toe rules 8x_135: 4700944881118448848
+      tac toe rules 8x_136: 6895005861522717592
+      tac toe rules 8x_137: -8652920399016908044
+      tac toe rules 8x_138: -4636164010008046050
+      tac toe rules 8x_139: -4087487646715879143
+      tac toe rules 8x_14: -897343396854919025
+      tac toe rules 8x_140: 8401365256413690419
+      tac toe rules 8x_141: -1370423465093885862
+      tac toe rules 8x_142: 9171265855863996109
+      tac toe rules 8x_143: -3545107941121372494
+      tac toe rules 8x_144: -5621594508595045236
+      tac toe rules 8x_145: -6423546534587760757
+      tac toe rules 8x_146: 6447422804096137982
+      tac toe rules 8x_147: 8595165242458634706
+      tac toe rules 8x_148: -8820096659102056347
+      tac toe rules 8x_149: 1691956175818475719
+      tac toe rules 8x_15: -4379289140418156031
+      tac toe rules 8x_150: 2269010634630566796
+      tac toe rules 8x_151: 7194125110648252898
+      tac toe rules 8x_152: 4649413653023270403
+      tac toe rules 8x_153: 5994159266593157143
+      tac toe rules 8x_154: -559909503722265978
+      tac toe rules 8x_155: 3226579900707947148
+      tac toe rules 8x_156: 1828225828065737853
+      tac toe rules 8x_157: -1496696459136896386
+      tac toe rules 8x_158: -2938491143522341570
+      tac toe rules 8x_159: -2638745374343117029
+      tac toe rules 8x_16: -8833735571910523188
+      tac toe rules 8x_160: -5185007548732109585
+      tac toe rules 8x_161: -7883589039753318262
+      tac toe rules 8x_162: 1871688730848851143
+      tac toe rules 8x_163: -1764394449332028624
+      tac toe rules 8x_164: -6179402006512968423
+      tac toe rules 8x_165: 4082684966543717134
+      tac toe rules 8x_166: 6272430943276891407
+      tac toe rules 8x_167: -4792942388934341162
+      tac toe rules 8x_168: -3439516271862301889
+      tac toe rules 8x_169: 2452207307327829302
+      tac toe rules 8x_17: 9097112486789053890
+      tac toe rules 8x_170: -9036486926170002878
+      tac toe rules 8x_171: 2851957642518350048
+      tac toe rules 8x_172: 8670762072385780092
+      tac toe rules 8x_173: 6190497739113462940
+      tac toe rules 8x_174: -5870317069997622810
+      tac toe rules 8x_175: 6111940216015659628
+      tac toe rules 8x_176: 6330913108570937485
+      tac toe rules 8x_177: -6066159225871385754
+      tac toe rules 8x_178: -7014538553942219913
+      tac toe rules 8x_179: -1937847538352497781
+      tac toe rules 8x_18: 7981136656421875909
+      tac toe rules 8x_180: 966724756668152052
+      tac toe rules 8x_181: 1857355875121072769
+      tac toe rules 8x_182: 6698905977516858094
+      tac toe rules 8x_183: -4780530561598295621
+      tac toe rules 8x_184: 1233861074403152979
+      tac toe rules 8x_185: 6767155394083047339
+      tac toe rules 8x_186: 1666850645120717993
+      tac toe rules 8x_187: -8928026528142116682
+      tac toe rules 8x_188: -7056624850347646057
+      tac toe rules 8x_189: -5217895642044314279
+      tac toe rules 8x_19: 7161301187476672339
+      tac toe rules 8x_190: 1038741386025273399
+      tac toe rules 8x_191: 3502178226965173463
+      tac toe rules 8x_192: 4776550596391584800
+      tac toe rules 8x_193: -7497302230083013752
+      tac toe rules 8x_194: -556279449854687773
+      tac toe rules 8x_195: 3160630502354993563
+      tac toe rules 8x_196: -6387556717524502313
+      tac toe rules 8x_197: -7403031633632767110
+      tac toe rules 8x_198: -3463647684678699911
+      tac toe rules 8x_199: 3359541444572606225
+      tac toe rules 8x_2: 9109901286090150261
+      tac toe rules 8x_20: 5389668512498384041
+      tac toe rules 8x_200: -174644976699095390
+      tac toe rules 8x_201: -5470968633946511100
+      tac toe rules 8x_202: 5312464205344787409
+      tac toe rules 8x_203: -5295145430821678363
+      tac toe rules 8x_204: -7582810563079187536
+      tac toe rules 8x_205: 3345436034938105180
+      tac toe rules 8x_206: -2530054492303513176
+      tac toe rules 8x_207: -182143302455269014
+      tac toe rules 8x_208: 147654590181460053
+      tac toe rules 8x_209: -9134440041993857345
+      tac toe rules 8x_21: 9090108765816467639
+      tac toe rules 8x_210: 308992435087216724
+      tac toe rules 8x_211: 763707069594814850
+      tac toe rules 8x_212: 7893127850441869762
+      tac toe rules 8x_213: 2756884121580709978
+      tac toe rules 8x_214: 1993978256168651186
+      tac toe rules 8x_215: 5952188860725782244
+      tac toe rules 8x_216: -2507518873308906585
+      tac toe rules 8x_217: -5398274026244966698
+      tac toe rules 8x_218: -3977047073423319430
+      tac toe rules 8x_219: -7024034080333822753
+      tac toe rules 8x_22: -9076484143865649050
+      tac toe rules 8x_220: 1509883633793904338
+      tac toe rules 8x_221: 4644763725071715199
+      tac toe rules 8x_222: -8190482559869628123
+      tac toe rules 8x_223: 7653799801158375089
+      tac toe rules 8x_224: 8356393034608442460
+      tac toe rules 8x_225: 2953225744184658695
+      tac toe rules 8x_226: 3359721982549638279
+      tac toe rules 8x_227: -2886136335826961729
+      tac toe rules 8x_228: 8111380338239148047
+      tac toe rules 8x_229: -5339507323087451595
+      tac toe rules 8x_23: 1403524095659560072
+      tac toe rules 8x_230: -6870599883934019447
+      tac toe rules 8x_231: -1962185519845483306
+      tac toe rules 8x_232: -2853299853717375084
+      tac toe rules 8x_233: 2073125190089084927
+      tac toe rules 8x_234: -877158045177891401
+      tac toe rules 8x_235: -1012719162978923029
+      tac toe rules 8x_236: -4137700557923721946
+      tac toe rules 8x_237: 8894227885986500657
+      tac toe rules 8x_238: -3057705260464506160
+      tac toe rules 8x_239: -8936563911142591313
+      tac toe rules 8x_24: 540720835069707517
+      tac toe rules 8x_240: -5040436224822261973
+      tac toe rules 8x_241: 6051948331334848635
+      tac toe rules 8x_242: 2478761719366619337
+      tac toe rules 8x_243: -839632277311288533
+      tac toe rules 8x_25: 6688945665432943346
+      tac toe rules 8x_26: 175415820606656473
+      tac toe rules 8x_27: 2817760078873457795
+      tac toe rules 8x_28: 6619051686903824401
+      tac toe rules 8x_29: -737039789627620934
+      tac toe rules 8x_3: 5827345701125465481
+      tac toe rules 8x_30: -8075861074665325997
+      tac toe rules 8x_31: -7564996119215446710
+      tac toe rules 8x_32: -1002709392962357263
+      tac toe rules 8x_33: 179578800051480873
+      tac toe rules 8x_34: -2752455563863043888
+      tac toe rules 8x_35: 8206819764770162150
+      tac toe rules 8x_36: 124846530258789110
+      tac toe rules 8x_37: 4224602796762722989
+      tac toe rules 8x_38: -6118045468908745465
+      tac toe rules 8x_39: 9137915757449596749
+      tac toe rules 8x_4: -8703515678543638269
+      tac toe rules 8x_40: 1807532195709260507
+      tac toe rules 8x_41: -6757627422485500251
+      tac toe rules 8x_42: -1954433555402865886
+      tac toe rules 8x_43: 5839894627466153258
+      tac toe rules 8x_44: 2529680749297218454
+      tac toe rules 8x_45: 8361417294339573886
+      tac toe rules 8x_46: 6788184951255790828
+      tac toe rules 8x_47: 3109386221306918512
+      tac toe rules 8x_48: -8440844799889033706
+      tac toe rules 8x_49: 1390472747369653651
+      tac toe rules 8x_5: 8442437345803598221
+      tac toe rules 8x_50: 294179647543142903
+      tac toe rules 8x_51: 180213930604695436
+      tac toe rules 8x_52: -4106108721462601470
+      tac toe rules 8x_53: 7389532376442540274
+      tac toe rules 8x_54: -4254973593938716665
+      tac toe rules 8x_55: -8968267204839254683
+      tac toe rules 8x_56: 6013796118675723369
+      tac toe rules 8x_57: -2867595480019555941
+      tac toe rules 8x_58: -2428736695618758136
+      tac toe rules 8x_59: -7576091940907448906
+      tac toe rules 8x_6: -8810530329766012812
+      tac toe rules 8x_60: -4577412565820207715
+      tac toe rules 8x_61: 7292756559761245323
+      tac toe rules 8x_62: -111315853023302885
+      tac toe rules 8x_63: -7823248337466203761
+      tac toe rules 8x_64: 2728519428910302058
+      tac toe rules 8x_65: -7995566006391284354
+      tac toe rules 8x_66: -6476686882650117119
+      tac toe rules 8x_67: -7449864442729762401
+      tac toe rules 8x_68: -7613498449592764107
+      tac toe rules 8x_69: 5185035977505233786
+      tac toe rules 8x_7: -1301205744522506959
+      tac toe rules 8x_70: -3050064093922605163
+      tac toe rules 8x_71: -2840739818724466020
+      tac toe rules 8x_72: -7905899160399072039
+      tac toe rules 8x_73: -5193916027383232806
+      tac toe rules 8x_74: 5390464888381518920
+      tac toe rules 8x_75: 1120695651419498423
+      tac toe rules 8x_76: 6265365494315545124
+      tac toe rules 8x_77: 7228328092041788653
+      tac toe rules 8x_78: -460646184332751193
+      tac toe rules 8x_79: 5796996072753787871
+      tac toe rules 8x_8: -3611175274323516903
+      tac toe rules 8x_80: -6153200247340341280
+      tac toe rules 8x_81: 6918599158577582637
+      tac toe rules 8x_82: -2746747195467317556
+      tac toe rules 8x_83: 8320819364198080142
+      tac toe rules 8x_84: -5749555240748066799
+      tac toe rules 8x_85: 1957921464154247480
+      tac toe rules 8x_86: 4216454566695175349
+      tac toe rules 8x_87: 1646855154104791410
+      tac toe rules 8x_88: 920364965037890661
+      tac toe rules 8x_89: -3435700511232847456
+      tac toe rules 8x_9: -7973553032225009769
+      tac toe rules 8x_90: 4183955908058922123
+      tac toe rules 8x_91: 501695646250436259
+      tac toe rules 8x_92: 5397928289347364052
+      tac toe rules 8x_93: 8481534925523803652
+      tac toe rules 8x_94: 6586058420837592448
+      tac toe rules 8x_95: 3637686810579861912
+      tac toe rules 8x_96: -5114463005260370273
+      tac toe rules 8x_97: 5783049891796035296
+      tac toe rules 8x_98: -3303025657633108741
+      tac toe rules 8x_99: -3082657279160800158
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
