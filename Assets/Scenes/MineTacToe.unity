@@ -1127,6 +1127,7 @@ MonoBehaviour:
   - {fileID: -8714267193830351887, guid: 56d044fea53aa144989a2c7e2eb08f4c, type: 3}
   - {fileID: 7709403589825670689, guid: e7ede5f7f1905264088cea3599340e50, type: 3}
   game: {fileID: 729391158}
+  final: 0
 --- !u!1 &507752334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1299,6 +1300,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1001 &540500288
 PrefabInstance:
@@ -1723,6 +1727,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &729391155
 GameObject:
@@ -2461,6 +2468,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &1022554143
 GameObject:
@@ -2570,6 +2580,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1001 &1069067225
 PrefabInstance:
@@ -3243,6 +3256,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &1371378668
 GameObject:
@@ -3382,6 +3398,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1001 &1409393770
 PrefabInstance:
@@ -3462,6 +3481,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &1423117853
 GameObject:
@@ -3601,6 +3623,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &1470941016
 GameObject:
@@ -4794,6 +4819,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   game: {fileID: 729391158}
+  originalSprite: {fileID: 0}
+  originalColor: {r: 0, g: 0, b: 0, a: 0}
+  spriteRenderer: {fileID: 0}
   clicked: 0
 --- !u!1 &2011648339
 GameObject:
