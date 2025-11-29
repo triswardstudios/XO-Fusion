@@ -14,6 +14,7 @@ public class WinScreenLoader : MonoBehaviour
     public Sprite[] CPUSprites = new Sprite[3];
     public Sprite[] PlayerSprites = new Sprite[3];
     public GameMTT game;
+    public bool final = false;
 
     // Update is called once per frame
 
@@ -28,27 +29,47 @@ public class WinScreenLoader : MonoBehaviour
         Scene2.SetActive(true);
         yield return new WaitForSeconds(2f);
         Scene2.SetActive(false);
-        if (win == 0)
+        if (win == 0 && !final)
         {
             Scene3.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene3.SetActive(false);
         }
-        else if (win == 1)
+        else if (win == 1 && !final)
         {
             Scene4.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene4.SetActive(false);
         }
-        else
+        else if(!final)
         {
             Debug.Log("entered else");
             Scene1.SetActive(true);
             game.StopAllCoroutines();
         }
+        if (!final)
+        {
+            yield return null;
+            self.SetActive(false);
+            yield return StartCoroutine(game.FinishingUpdate(win));
+        }
         Debug.Log("skipped else");
-        yield return null;
-        self.SetActive(false);
-        yield return StartCoroutine(game.FinishingUpdate(win));
+        if (win == 0 && final)
+        {
+            Debug.Log("Won");
+            yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameWonMTT"));
+        }
+        else if (win == 1 && final)
+        {
+            Debug.Log("Lost");
+            yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameLoseMTT"));
+        }
+        else if (final)
+        {
+            Debug.Log("entered else");
+            Scene1.SetActive(true);
+            game.StopAllCoroutines();
+        }
+
     }
 }

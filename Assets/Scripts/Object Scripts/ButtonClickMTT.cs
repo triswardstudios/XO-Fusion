@@ -8,6 +8,9 @@ public class ButtonClickMTT : MonoBehaviour
     private GameManagerMTT gameManager;
     private GameObject gm2;
     public GameMTT game;
+    public Sprite originalSprite;
+    public Color originalColor;
+    public SpriteRenderer spriteRenderer;
     public bool clicked = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -15,8 +18,12 @@ public class ButtonClickMTT : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManagerMTT>();
-        //gm = GameObject.Find("Game");
-        //game = gm2.GetComponent<GameMTT>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        if (spriteRenderer != null)
+        {
+            originalColor = spriteRenderer.color;
+            originalSprite = spriteRenderer.sprite;
+        }
     }
 
     private void OnMouseUp()

@@ -29,7 +29,6 @@ public class GameMTT : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManagerMTT>();
-        //wsl = GameObject.Find("RPS").GetComponent<WinScreenLoader>();
     }
 
     private void Update()
@@ -39,34 +38,27 @@ public class GameMTT : MonoBehaviour
             timerCoroutine = StartCoroutine(Timer());
         }
 
-        //if (win.WinCondition(gameManager.arr, 1))
-        //{
-        //    StartCoroutine(Refresh());
-        //}
-        //else if (win.WinCondition(gameManager.arr, 2))
-        //{
-        //    StartCoroutine(Refresh());
-        //}
-        //else if (gameManager.turn == 2 && !botIsMoving)
-        //{
-        //    StartCoroutine(BotMove());
-        //}
-        //else if (gameManager.turn == 1 && !gameManager.arr.Contains(0))
-        //{
-        //    StartCoroutine(Refresh());
-        //}
-
-        if (win.WinCondition(gameManager.arr, 1) && !loaded)
+        if (win.WinCondition(gameManager.arr, 1) &&!win.WinCondition(gameManager.arr, 2) && !loaded)
         {
             StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
         }
-        else if (win.WinCondition(gameManager.arr, 2) && !loaded)
+        else if (win.WinCondition(gameManager.arr, 2) &&!win.WinCondition(gameManager.arr, 1) && !loaded)
         {
             StartCoroutine(LoadSceneAsyncCoroutine("GameLoseMTT"));
+        }
+        else if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !loaded)
+        {
+            gameManager.tieBreaker.SetActive(true);
+            if (!wsl.final)
+            { wsl.Scene1.SetActive(true); }
+            StopTimer();
+            timeUp = false;
+            wsl.final = true;
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
             StartCoroutine(BotMove());
+            botIsMoving = true;
         }
         else if (gameManager.turn == 1 && !gameManager.arr.Contains(0))
         {
@@ -111,8 +103,10 @@ public class GameMTT : MonoBehaviour
             {
                 foreach (var button in gameManager.boardSpecs)
                 {
-                    button.GetComponent<SpriteRenderer>().sprite = gameManager.defaultSprite;
+                    button.GetComponent<SpriteRenderer>().sprite = button.GetComponent<ButtonClickMTT>().originalSprite;
+                    button.GetComponent<SpriteRenderer>().color = button.GetComponent<ButtonClickMTT>().originalColor;
                     button.GetComponent<ButtonClickMTT>().clicked = false;
+                    gameManager.UpdateArray();
                 }
             }
 
@@ -127,7 +121,8 @@ public class GameMTT : MonoBehaviour
         yield return new WaitForSeconds(1f);
         foreach (var button in gameManager.boardSpecs)
         {
-            button.GetComponent<SpriteRenderer>().sprite = gameManager.defaultSprite;
+            button.GetComponent<SpriteRenderer>().sprite = button.GetComponent<ButtonClickMTT>().originalSprite;
+            button.GetComponent<SpriteRenderer>().color = button.GetComponent<ButtonClickMTT>().originalColor;
             button.GetComponent<ButtonClickMTT>().clicked = false;
             gameManager.UpdateArray();
         }
@@ -208,7 +203,7 @@ public class GameMTT : MonoBehaviour
         }
     }
 
-    private IEnumerator LoadSceneAsyncCoroutine(string sceneName)
+    public IEnumerator LoadSceneAsyncCoroutine(string sceneName)
     {
         loaded = true;
         yield return new WaitForSeconds(2f);
