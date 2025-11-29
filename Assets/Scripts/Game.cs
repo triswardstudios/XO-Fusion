@@ -99,6 +99,7 @@ public class Game : MonoBehaviour
             botWon++;
             refreshing = false;
         }
+        gameManager.turn = 1;
         yield return new WaitForSeconds(1f);
         foreach (var button in gameManager.boardSpecs)
         {
