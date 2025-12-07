@@ -12,6 +12,7 @@ public class Game : MonoBehaviour
 
     public int playerWon = 0;
     public int botWon = 0;
+    public int winMax = 3;
     public GameObject playerIndicator;
     public GameObject botIndicator;
     public bool refreshing = true;
@@ -26,29 +27,33 @@ public class Game : MonoBehaviour
     {
         playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = playerWon.ToString();
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = botWon.ToString();
-        if (playerWon == 3)
+        if (playerWon == winMax)
         {
             StartCoroutine(LoadSceneAsyncCoroutine("GameWonTTT"));
         }
-        else if (botWon == 3)
+        else if (botWon == winMax)
         {
             StartCoroutine(LoadSceneAsyncCoroutine("GameLoseTTT"));
         }
         if (win.WinCondition(gameManager.arr, 1) && refreshing)
         {
             StartCoroutine(Refresh());
+            refreshing = false;
         }
         else if (win.WinCondition(gameManager.arr, 2) && refreshing)
         {
             StartCoroutine(Refresh());
+            refreshing = false;
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
             StartCoroutine(BotMove());
+            botIsMoving = true;
         }
-        else if (gameManager.turn == 1 && !gameManager.arr.Contains(0))
+        else if (gameManager.turn == 1 && !gameManager.arr.Contains(0) && refreshing)
         {
             StartCoroutine(Refresh());
+            refreshing = false;
         }
     }
 
