@@ -5,6 +5,8 @@ using UnityEngine.SceneManagement;
 public class LevelLoader : MonoBehaviour
 {
     public string scene;
+    public string setPrefKey;
+    public string setPrefValue;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     public void LoadNewScene(string scene)
@@ -14,15 +16,12 @@ public class LevelLoader : MonoBehaviour
 
     private IEnumerator LoadSceneAsyncCoroutine(string sceneName)
     {
-        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
-
-        // While the scene is still loading, display progress
-        while (!asyncLoad.isDone)
+        if (setPrefKey != null && setPrefValue != null)
         {
-            Debug.Log("Loading progress: " + asyncLoad.progress * 100 + "%");
-            yield return null; // Wait for the next frame
+            PlayerPrefs.SetString(setPrefKey, setPrefValue);
         }
-
-        Debug.Log("Scene loaded: " + sceneName);
+        AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
+        yield return null;
     }
+
 }
