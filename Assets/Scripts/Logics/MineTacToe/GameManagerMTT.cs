@@ -8,7 +8,8 @@ public class GameManagerMTT : MonoBehaviour
     public Sprite defaultSprite;
     public int count = 0;
     public int[] arr = new int[9];
-    public int currentButtonClicked = -1;
+    public int currentButtonClicked1 = -1;
+    public int currentButtonClicked2 = -1;
     public GameObject tieBreaker;
 
     private void Start()

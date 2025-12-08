@@ -29,22 +29,35 @@ public class GameMTT : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManagerMTT>();
-    }
-
+    }                 
     private void Update()
     {
         if (timeUp && time && gameManager.turn == 1)
         {
-            timerCoroutine = StartCoroutine(Timer());
+            //timerCoroutine = StartCoroutine(Timer());
         }
 
         if (win.WinCondition(gameManager.arr, 1) &&!win.WinCondition(gameManager.arr, 2) && !loaded)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+            if(PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+            }
+            else
+            {
+                StartCoroutine(Refresh());
+            }
         }
         else if (win.WinCondition(gameManager.arr, 2) &&!win.WinCondition(gameManager.arr, 1) && !loaded)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameLoseMTT"));
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameLoseMTT"));
+            }
+            else
+            {
+                StartCoroutine(Refresh());
+            }
         }
         else if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !loaded)
         {
@@ -57,8 +70,19 @@ public class GameMTT : MonoBehaviour
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
-            StartCoroutine(BotMove());
-            botIsMoving = true;
+            if (PlayerPrefs.GetString("Opponent Type") == "Bot")
+            {
+                StartCoroutine(BotMove());
+                botIsMoving = true;
+            }
+            else
+            {
+                if (gameManager.currentButtonClicked2 != -1)
+                {
+                    versusMode(gameManager.currentButtonClicked2);
+                    gameManager.currentButtonClicked2 = -1;
+                }
+            }
         }
         else if (gameManager.turn == 1 && !gameManager.arr.Contains(0))
         {
@@ -80,16 +104,16 @@ public class GameMTT : MonoBehaviour
             botMove = move;
             if (move != -1)
             {
-                if (gameManager.currentButtonClicked != move)
+                if (gameManager.currentButtonClicked1 != move)
                 {
                     gameManager.boardSpecs[move].GetComponent<ButtonClickMTT>().ClickButton();
                     gameManager.turn = 1;
-                    StopTimer();
+                    //StopTimer();
                     timeUp = false;
-                    gameManager.boardSpecs[gameManager.currentButtonClicked].GetComponent<ButtonClickMTT>().ClickButton();
+                    gameManager.boardSpecs[gameManager.currentButtonClicked1].GetComponent<ButtonClickMTT>().ClickButton();
                     time = true;
-                    timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
-                    timerCoroutine = StartCoroutine(Timer());
+                    //timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
+                    //timerCoroutine = StartCoroutine(Timer());
                 }
                 else
                 {
@@ -116,7 +140,7 @@ public class GameMTT : MonoBehaviour
         botIsMoving = false;
     }
 
-    private IEnumerator Refresh()
+    public IEnumerator Refresh()
     {
         yield return new WaitForSeconds(1f);
         foreach (var button in gameManager.boardSpecs)
@@ -151,13 +175,32 @@ public class GameMTT : MonoBehaviour
         gameManager.UpdateArray();
     }
 
+    public void RockPaperScissors2(int num, int num2)
+    {
+        if ((num == 0 && num2 == 2) || (num == 1 && num2 == 0) || (num == 2 && num2 == 1))
+        {
+            StartCoroutine(wsl.FullScreenAnimation(num2, num, 0));
+        }
+        else if (num == num2)
+        {
+            StartCoroutine(wsl.FullScreenAnimation(num2, num, 2));
+        }
+        else
+        {
+            StartCoroutine(wsl.FullScreenAnimation(num2, num, 1));
+        }
+        time = true;
+        tieBreak = false;
+        gameManager.UpdateArray();
+    }
+
     public IEnumerator FinishingUpdate(int win)
     {
         yield return null;
         if (win == 0)
         {
             gameManager.turn = 1;
-            gameManager.boardSpecs[gameManager.currentButtonClicked].GetComponent<ButtonClickMTT>().ClickButton();
+            gameManager.boardSpecs[gameManager.currentButtonClicked1].GetComponent<ButtonClickMTT>().ClickButton();
             Debug.Log("Player wins!");
             time = true;
         }
@@ -175,8 +218,30 @@ public class GameMTT : MonoBehaviour
             time = true;
             Debug.Log("Draw!");
         }
-        timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
-        timerCoroutine = StartCoroutine(Timer());
+        //timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
+        //timerCoroutine = StartCoroutine(Timer());
+    }
+
+    public void versusMode(int secondMove)
+    {
+        if (gameManager.currentButtonClicked1 != secondMove)
+        {
+            gameManager.boardSpecs[secondMove].GetComponent<ButtonClickMTT>().ClickButton();
+            gameManager.turn = 1;
+            //StopTimer();
+            timeUp = false;
+            gameManager.boardSpecs[gameManager.currentButtonClicked1].GetComponent<ButtonClickMTT>().ClickButton();
+            time = true;
+            //timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
+            //timerCoroutine = StartCoroutine(Timer());
+        }
+        else
+        {
+            //gameManager.tieBreaker.SetActive(true);
+            //wsl.Scene1.SetActive(true);
+            //StopTimer();
+            //timeUp = false;
+        }
     }
 
     public IEnumerator Timer()

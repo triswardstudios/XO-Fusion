@@ -53,7 +53,14 @@ public class ButtonClickMTT : MonoBehaviour
             {
                 //game.timeUp = false;
                 //game.timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
-                gameManager.currentButtonClicked = index;
+                if (gameManager.turn == 1)
+                {
+                    gameManager.currentButtonClicked1 = index;
+                }
+                else
+                {
+                    gameManager.currentButtonClicked2 = index;
+                }
                 Debug.Log("Object found in array at index: " + index);
                 gameManager.turn = 2;
                 // You can now access gameManager.objects[index]
