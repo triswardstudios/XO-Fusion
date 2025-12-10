@@ -5,6 +5,12 @@ using UnityEngine.UI;
 public class WinScreenLoader : MonoBehaviour
 {
     public GameObject self;
+    public GameObject self2;
+    public GameObject Scene01;
+    public GameObject Scene02;
+    public GameObject Scene22;
+    public GameObject Scene33;
+    public GameObject Scene44;
     public GameObject Scene1;
     public GameObject Scene2;
     public GameObject Scene3;
@@ -15,6 +21,7 @@ public class WinScreenLoader : MonoBehaviour
     public Sprite[] PlayerSprites = new Sprite[3];
     public GameMTT game;
     public bool final = false;
+    public int player1 = -1;
 
     // Update is called once per frame
 
@@ -25,7 +32,7 @@ public class WinScreenLoader : MonoBehaviour
         Scene2.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[botMove];
         yield return null;
         Scene1.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
+        //yield return new WaitForSeconds(0.5f);
         Scene2.SetActive(true);
         yield return new WaitForSeconds(2f);
         Scene2.SetActive(false);
@@ -90,36 +97,36 @@ public class WinScreenLoader : MonoBehaviour
     public IEnumerator FullScreenAnimation2P(int secondMove, int firstMove, int win)
     {
         Debug.Log("Coroutine Start");
-        Scene2.transform.Find("Player").GetComponent<Image>().sprite = PlayerSprites[firstMove];
-        Scene2.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[secondMove];
+        Scene22.transform.Find("Player").GetComponent<Image>().sprite = PlayerSprites[firstMove];
+        Scene22.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[secondMove];
         yield return null;
-        Scene1.SetActive(false);
-        yield return new WaitForSeconds(0.5f);
-        Scene2.SetActive(true);
+        Scene02.SetActive(false);
+        //yield return new WaitForSeconds(0.5f);
+        Scene22.SetActive(true);
         yield return new WaitForSeconds(2f);
-        Scene2.SetActive(false);
+        Scene22.SetActive(false);
         if (win == 0 && !final)
         {
-            Scene3.SetActive(true);
+            Scene33.SetActive(true);
             yield return new WaitForSeconds(1f);
-            Scene3.SetActive(false);
+            Scene33.SetActive(false);
         }
         else if (win == 1 && !final)
         {
-            Scene4.SetActive(true);
+            Scene44.SetActive(true);
             yield return new WaitForSeconds(1f);
-            Scene4.SetActive(false);
+            Scene44.SetActive(false);
         }
         else if (!final)
         {
             Debug.Log("entered else");
-            Scene1.SetActive(true);
+            Scene01.SetActive(true);
             game.StopAllCoroutines();
         }
         if (!final)
         {
             yield return null;
-            self.SetActive(false);
+            self2.SetActive(false);
             yield return StartCoroutine(game.FinishingUpdate(win));
         }
         Debug.Log("skipped else");
@@ -151,9 +158,13 @@ public class WinScreenLoader : MonoBehaviour
         else if (final)
         {
             Debug.Log("entered else");
-            Scene1.SetActive(true);
+            Scene01.SetActive(true);
             game.StopAllCoroutines();
         }
 
+    }
+    public void setPlayer1(int val)
+    {
+        player1 = val;
     }
 }

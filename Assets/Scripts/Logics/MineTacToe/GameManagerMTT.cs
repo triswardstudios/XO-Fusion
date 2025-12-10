@@ -11,6 +11,7 @@ public class GameManagerMTT : MonoBehaviour
     public int currentButtonClicked1 = -1;
     public int currentButtonClicked2 = -1;
     public GameObject tieBreaker;
+    public GameObject tieBreaker2;
 
     private void Start()
     {

@@ -119,7 +119,7 @@ public class GameMTT : MonoBehaviour
                 {
                     gameManager.tieBreaker.SetActive(true);
                     wsl.Scene1.SetActive(true);
-                    StopTimer();
+                    //StopTimer();
                     timeUp = false;
                 }
             }
@@ -175,20 +175,22 @@ public class GameMTT : MonoBehaviour
         gameManager.UpdateArray();
     }
 
-    public void RockPaperScissors2(int num, int num2)
+    public void RockPaperScissors2(int num2)
     {
+        int num = wsl.player1;
         if ((num == 0 && num2 == 2) || (num == 1 && num2 == 0) || (num == 2 && num2 == 1))
         {
-            StartCoroutine(wsl.FullScreenAnimation(num2, num, 0));
+            StartCoroutine(wsl.FullScreenAnimation2P(num2, num, 0));
         }
         else if (num == num2)
         {
-            StartCoroutine(wsl.FullScreenAnimation(num2, num, 2));
+            StartCoroutine(wsl.FullScreenAnimation2P(num2, num, 2));
         }
         else
         {
-            StartCoroutine(wsl.FullScreenAnimation(num2, num, 1));
+            StartCoroutine(wsl.FullScreenAnimation2P(num2, num, 1));
         }
+        wsl.setPlayer1(-1);
         time = true;
         tieBreak = false;
         gameManager.UpdateArray();
@@ -237,10 +239,10 @@ public class GameMTT : MonoBehaviour
         }
         else
         {
-            //gameManager.tieBreaker.SetActive(true);
-            //wsl.Scene1.SetActive(true);
+            gameManager.tieBreaker2.SetActive(true);
+            wsl.Scene01.SetActive(true);
             //StopTimer();
-            //timeUp = false;
+            timeUp = false;
         }
     }
 

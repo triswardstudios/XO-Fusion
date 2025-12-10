@@ -6,7 +6,7 @@ public class PlayerPrefsInit : MonoBehaviour
     void Start()
     {
         PlayerPrefs.SetString("Game Mode", "Normal");
-        PlayerPrefs.SetString("Opponent Type", "Bot");
+        PlayerPrefs.SetString("Opponent Type", "Versus");
         PlayerPrefs.Save();
     }
 
