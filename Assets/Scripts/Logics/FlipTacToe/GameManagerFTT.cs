@@ -51,15 +51,29 @@ public class GameManagerFTT : MonoBehaviour
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = BotWin.ToString();
         if (PlayerWin == 3)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameWonFTT"));
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonFTT"));
+            }
+            else
+            {
+                AssignValue(arr);
+            }
         }
         else if (BotWin == 3)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameLoseFTT"));
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+            }
+            else
+            {
+                AssignValue(arr);
+            }
         }
         if (isRevealing) return; // ignore clicks during reveal/reset
 
-        if (Input.GetMouseButtonUp(0) && turn == 1)
+        if (Input.GetMouseButtonUp(0) && ((turn == 1 && PlayerPrefs.GetString("Opponent Type") == "Bot")|| PlayerPrefs.GetString("Opponent Type") != "Bot"))
         {
             // Ignore clicks through UI
             if (EventSystem.current != null && EventSystem.current.IsPointerOverGameObject())
