@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
-    path: Assets/Rajdeep/Screens/TitleScreen.unity
+    path: Assets/Scripts/Rajdeep/TitleScreen.unity
     guid: 905fc945868604c44bfb96d15d30a6bb
   - enabled: 1
     path: Assets/Rajdeep/Screens/MainMenu.unity

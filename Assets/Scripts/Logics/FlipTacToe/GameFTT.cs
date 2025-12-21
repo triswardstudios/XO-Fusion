@@ -16,8 +16,10 @@ public class GameFTT : MonoBehaviour
 
     private void Update()
     {
-        if (game.turn == 2 && !game.botMoved)
+        if (game.turn == 2 && !game.botMoved && PlayerPrefs.GetString("Opponent Type") == "Bot")
+        {
             StartCoroutine(BotMove());
+        }
     }
 
     private IEnumerator BotMove()

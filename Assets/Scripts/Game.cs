@@ -29,11 +29,27 @@ public class Game : MonoBehaviour
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = botWon.ToString();
         if (playerWon == winMax)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameWonTTT"));
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+            }
+            else
+            {
+                StartCoroutine(Refresh());
+                refreshing = false;
+            }
         }
         else if (botWon == winMax)
         {
-            StartCoroutine(LoadSceneAsyncCoroutine("GameLoseTTT"));
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
+            {
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+            }
+            else
+            {
+                StartCoroutine(Refresh());
+                refreshing = false;
+            }
         }
         if (win.WinCondition(gameManager.arr, 1) && refreshing)
         {
@@ -47,8 +63,11 @@ public class Game : MonoBehaviour
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
-            StartCoroutine(BotMove());
-            botIsMoving = true;
+            if (PlayerPrefs.GetString("Opponent Type") == "Bot")
+            {
+                StartCoroutine(BotMove());
+                botIsMoving = true;
+            }
         }
         else if (gameManager.turn == 1 && !gameManager.arr.Contains(0) && refreshing)
         {
@@ -104,7 +123,7 @@ public class Game : MonoBehaviour
             botWon++;
             refreshing = false;
         }
-        gameManager.turn = 1;
+        //gameManager.turn = 1;
         yield return new WaitForSeconds(1f);
         foreach (var button in gameManager.boardSpecs)
         {

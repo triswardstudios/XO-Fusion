@@ -15,7 +15,7 @@ public class ButtonClick : MonoBehaviour
 
     private void OnMouseUp()
     {
-        if (!clicked && gameManager.turn == 1)
+        if (!clicked && ((gameManager.turn == 1 && PlayerPrefs.GetString("Opponent Type") == "Bot")||(PlayerPrefs.GetString("Opponent Type") != "Bot")))
         {
             ClickButton();
         }
