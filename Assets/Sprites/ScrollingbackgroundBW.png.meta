@@ -142,19 +142,19 @@ TextureImporter:
       name: ScrollingbackgroundBW_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1482
-        width: 20300
-        height: 10178
+        x: 2
+        y: 1576
+        width: 20247
+        height: 10035
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
-      tessellationDetail: -1
+      tessellationDetail: 0
       bones: []
-      spriteID: 09a3af18849f01f20800000000000000
+      spriteID: 52f33ffce205b2545a94b6cca62d4688
       internalID: 3391484609223604880
       vertices: []
       indices: 
