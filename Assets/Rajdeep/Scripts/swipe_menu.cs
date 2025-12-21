@@ -13,6 +13,12 @@ public class swipe_menu : MonoBehaviour
     [Header("Card Size")]
     public Vector2 selectedSize = new Vector2(260, 360);
     public Vector2 normalSize = new Vector2(220, 320);
+    [Header("Card Color")]
+    public Color selectedColor;
+    public Color normalColor;
+    public float alpha = 0.5f;
+
+    private Image uiImage;
 
     float scroll_pos = 0;
     float[] pos;
@@ -32,6 +38,10 @@ public class swipe_menu : MonoBehaviour
     void Start()
     {
         layoutGroup.spacing = normalSpacing;
+        selectedColor = cards[0].GetComponent<Image>().color;
+        Color tempColor = selectedColor;
+        tempColor.a = alpha;
+        normalColor = tempColor;
     }
 
     void Update()
@@ -66,10 +76,18 @@ public class swipe_menu : MonoBehaviour
             Vector2 targetSize = (i == selectedIndex)
                 ? selectedSize
                 : normalSize;
+            Color targetColor = (i == selectedIndex)
+                ? selectedColor
+                : normalColor;
 
             cards[i].sizeDelta = Vector2.Lerp(
                 cards[i].sizeDelta,
                 targetSize,
+                Time.deltaTime * 8f
+            );
+            cards[i].GetComponent<Image>().color = Color.Lerp(
+                cards[i].GetComponent<Image>().color,
+                targetColor,
                 Time.deltaTime * 8f
             );
         }
@@ -81,6 +99,7 @@ public class swipe_menu : MonoBehaviour
             targetSpacing,
             Time.deltaTime * 5f
         );
+
     }
 
     // 🔹 Nearest card finder
