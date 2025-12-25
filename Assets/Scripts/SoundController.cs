@@ -36,15 +36,17 @@ public class SoundController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (muteToggle.GetComponent<Slider>().value == 1)
-        {
-            bgmSource.GetComponent<AudioSource>().volume = bgmSlider.GetComponent<Slider>().value;
-            sfxSource.GetComponent<AudioSource>().volume = sfxSlider.GetComponent<Slider>().value;
-        }
-        else
-        {
-            bgmSource.GetComponent<AudioSource>().volume = 0;
-            sfxSource.GetComponent<AudioSource>().volume = 0;
+        if (sfxSlider != null) { 
+            if (muteToggle.GetComponent<Slider>().value == 1)
+            {
+                bgmSource.GetComponent<AudioSource>().volume = bgmSlider.GetComponent<Slider>().value;
+                sfxSource.GetComponent<AudioSource>().volume = sfxSlider.GetComponent<Slider>().value;
+            }
+            else
+            {
+                bgmSource.GetComponent<AudioSource>().volume = 0;
+                sfxSource.GetComponent<AudioSource>().volume = 0;
+            }
         }
     }
 }

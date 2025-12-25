@@ -77,7 +77,7 @@ public class Game : MonoBehaviour
                 botIsMoving = true;
             }
         }
-        else if (gameManager.turn == 1 && !gameManager.arr.Contains(0) && refreshing)
+        else if (!gameManager.arr.Contains(0) && refreshing)
         {
             StartCoroutine(Refresh());
             refreshing = false;

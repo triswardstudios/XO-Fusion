@@ -27,6 +27,8 @@ public class GameMTT : MonoBehaviour
     private int winMax = 3;
     public int playerWin = 0;
     public int botWin = 0;
+    public GameObject playerIndicator;
+    public GameObject botIndicator;
 
     private void Start()
     {
@@ -43,7 +45,9 @@ public class GameMTT : MonoBehaviour
     }                 
     private void Update()
     {
-        if(playerWin == winMax)
+        playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = playerWin.ToString();
+        botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = botWin.ToString();
+        if (playerWin == winMax)
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
