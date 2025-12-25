@@ -34,7 +34,7 @@ public class GameMTT : MonoBehaviour
         gameManager = gm.GetComponent<GameManagerMTT>();
         if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
         {
-            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2)+1;
         }
         else
         {

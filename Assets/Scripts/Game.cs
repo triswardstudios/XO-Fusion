@@ -39,7 +39,7 @@ public class Game : MonoBehaviour
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+                StartCoroutine(LoadSceneAsyncCoroutine("GameWonTTT"));
             }
             else
             {
@@ -51,7 +51,7 @@ public class Game : MonoBehaviour
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+                StartCoroutine(LoadSceneAsyncCoroutine("GameLoseTTT"));
             }
             else
             {

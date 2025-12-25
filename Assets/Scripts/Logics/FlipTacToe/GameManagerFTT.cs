@@ -46,7 +46,7 @@ public class GameManagerFTT : MonoBehaviour
         AssignValue(arr);
         if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
         {
-            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
         }
         else
         {
@@ -73,7 +73,7 @@ public class GameManagerFTT : MonoBehaviour
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+                StartCoroutine(LoadSceneAsyncCoroutine("GameLoseFTT"));
             }
             else
             {

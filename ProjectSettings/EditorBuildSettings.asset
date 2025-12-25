@@ -41,6 +41,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rajdeep/Screens/GameLoseFTT.unity
     guid: a8b5a6b8bbb7ab24381c104a6dc651be
+  - enabled: 1
+    path: Assets/Rajdeep/Screens/LevelSelect/FlipTacToeSelect.unity
+    guid: e23fc0b8a1d75fe46a14135bdc84a5aa
+  - enabled: 1
+    path: Assets/Rajdeep/Screens/LevelSelect/MineTacToeSelect.unity
+    guid: 8d7b3788f7cc26c49b95f3224eb95e1d
+  - enabled: 1
+    path: Assets/Rajdeep/Screens/LevelSelect/TicTacToeSelect.unity
+    guid: 6991eebc2ca868f4e9c99fda75034bef
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
