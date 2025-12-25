@@ -7,9 +7,10 @@ public class UnlockLevels : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetInt(levelToUnlock) > 5)
+        if (PlayerPrefs.GetInt(levelToUnlock) >= 5)
         {
             gameObject.GetComponent<Button>().interactable = true;
+            gameObject.transform.Find("Lock").gameObject.SetActive(false);
         }
     }
 }
