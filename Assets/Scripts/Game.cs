@@ -21,6 +21,14 @@ public class Game : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManager>();
+        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels")>=3)
+        {
+            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+        }
+        else
+        {
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+        }
     }
 
     private void Update()
@@ -115,6 +123,7 @@ public class Game : MonoBehaviour
     {
         if (win.WinCondition(gameManager.arr, 1))
         {
+            PlayerPrefs.SetInt("TicTacToe", PlayerPrefs.GetInt("TicTacToe") + 1);
             playerWon++;
             refreshing = false;
         }

@@ -24,22 +24,28 @@ public class GameMTT : MonoBehaviour
     private bool loaded = false;
     public bool animFinished = true;
     private Coroutine timerCoroutine;
+    private int winMax = 3;
+    public int playerWin = 0;
+    public int botWin = 0;
 
     private void Start()
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManagerMTT>();
+        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
+        {
+            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+        }
+        else
+        {
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+        }
     }                 
     private void Update()
     {
-        if (timeUp && time && gameManager.turn == 1)
+        if(playerWin == winMax)
         {
-            //timerCoroutine = StartCoroutine(Timer());
-        }
-
-        if (win.WinCondition(gameManager.arr, 1) &&!win.WinCondition(gameManager.arr, 2) && !loaded)
-        {
-            if(PlayerPrefs.GetString("Game Mode") == "Normal")
+            if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
                 StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
             }
@@ -48,7 +54,7 @@ public class GameMTT : MonoBehaviour
                 StartCoroutine(Refresh());
             }
         }
-        else if (win.WinCondition(gameManager.arr, 2) &&!win.WinCondition(gameManager.arr, 1) && !loaded)
+        else if(botWin == winMax)
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
@@ -58,6 +64,17 @@ public class GameMTT : MonoBehaviour
             {
                 StartCoroutine(Refresh());
             }
+        }
+        if (win.WinCondition(gameManager.arr, 1) && !win.WinCondition(gameManager.arr, 2) && !loaded)
+        {
+            PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
+            playerWin++;
+            StartCoroutine(Refresh());
+        }
+        else if (win.WinCondition(gameManager.arr, 2) && !win.WinCondition(gameManager.arr, 1) && !loaded)
+        {
+                botWin++;
+            StartCoroutine(Refresh());
         }
         else if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !loaded)
         {

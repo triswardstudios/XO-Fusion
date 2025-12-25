@@ -421,6 +421,7 @@ GameObject:
   - component: {fileID: 252943879}
   - component: {fileID: 252943881}
   - component: {fileID: 252943880}
+  - component: {fileID: 252943882}
   m_Layer: 5
   m_Name: Number
   m_TagString: Untagged
@@ -501,8 +502,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_wordSpacing: 0
@@ -546,6 +547,19 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 252943878}
   m_CullTransparentMesh: 1
+--- !u!114 &252943882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 252943878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 28d097618aa708b40a25b395fc2e41e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelDisplayer
+  levelSlider: {fileID: 532495193}
 --- !u!1 &366635696
 GameObject:
   m_ObjectHideFlags: 0
@@ -852,10 +866,10 @@ MonoBehaviour:
   m_FillRect: {fileID: 1525390088}
   m_HandleRect: {fileID: 1783977541}
   m_Direction: 0
-  m_MinValue: 0
-  m_MaxValue: 1
-  m_WholeNumbers: 0
-  m_Value: 0
+  m_MinValue: 3
+  m_MaxValue: 21
+  m_WholeNumbers: 1
+  m_Value: 21
   m_OnValueChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1011,7 +1025,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 633635741}
   m_OnClick:
     m_PersistentCalls:
@@ -1261,7 +1275,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Name
+  m_text: FlipTacToe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
   m_sharedMaterial: {fileID: -3675893550087939668, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
@@ -1594,7 +1608,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1166688310}
   m_OnClick:
     m_PersistentCalls:
@@ -1714,7 +1728,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1207202202}
   m_OnClick:
     m_PersistentCalls:
@@ -2084,6 +2098,7 @@ GameObject:
   - component: {fileID: 1433058961}
   - component: {fileID: 1433058960}
   - component: {fileID: 1433058959}
+  - component: {fileID: 1433058962}
   m_Layer: 5
   m_Name: P&BButton
   m_TagString: Untagged
@@ -2153,7 +2168,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1433058960}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1433058962}
+        m_TargetAssemblyTypeName: OpponentSelect, Assembly-CSharp
+        m_MethodName: ChangeOnClick
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1433058960
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2192,6 +2219,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1433058957}
   m_CullTransparentMesh: 1
+--- !u!114 &1433058962
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1433058957}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4e611232007a0d45bc44bfa2507cc30, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::OpponentSelect
+  player: {fileID: -9148862974641990504, guid: 2d8a218a7396b564aad8bd786403efad, type: 3}
+  bot: {fileID: -2312744818573522906, guid: 4af1e9de69ad20d41b02e5bbb9a4b96c, type: 3}
+  self: {fileID: 1433058960}
 --- !u!1 &1437874538
 GameObject:
   m_ObjectHideFlags: 0
@@ -2594,6 +2636,7 @@ GameObject:
   - component: {fileID: 1699739520}
   - component: {fileID: 1699739519}
   - component: {fileID: 1699739518}
+  - component: {fileID: 1699739521}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -2663,7 +2706,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1699739519}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1699739521}
+        m_TargetAssemblyTypeName: LevelLoader, Assembly-CSharp
+        m_MethodName: LoadNewScene
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: FlipTacToe
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1699739519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2702,6 +2757,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1699739516}
   m_CullTransparentMesh: 1
+--- !u!114 &1699739521
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1699739516}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b71512a0fc232f4ab259990497a30cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::LevelLoader
+  scene: 
+  setPrefKey: 
+  setPrefValue: 
 --- !u!1 &1763339423
 GameObject:
   m_ObjectHideFlags: 0

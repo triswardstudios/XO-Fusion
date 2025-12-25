@@ -133,26 +133,15 @@ public class WinScreenLoader : MonoBehaviour
         if (win == 0 && final)
         {
             Debug.Log("Won");
-            if (PlayerPrefs.GetString("Game Mode") == "Normal")
-            {
-                yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameWonMTT"));
-            }
-            else
-            {
-                yield return StartCoroutine(game.Refresh());
-            }
+            PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
+            game.playerWin++;
+            yield return StartCoroutine(game.Refresh());
         }
         else if (win == 1 && final)
         {
             Debug.Log("Lost");
-            if (PlayerPrefs.GetString("Game Mode") == "Normal")
-            {
-                yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameLoseMTT"));
-            }
-            else
-            {
-                yield return StartCoroutine(game.Refresh());
-            }
+            game.botWin++;
+            yield return StartCoroutine(game.Refresh());
 
         }
         else if (final)

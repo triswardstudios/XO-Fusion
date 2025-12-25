@@ -37,19 +37,28 @@ public class GameManagerFTT : MonoBehaviour
     public GameObject playerIndicator;
     public GameObject botIndicator;
     public bool incremented = false;
+    private int winMax = 3;
 
     private void Start()
     {
         gm = GameObject.Find("Game");
         game = gm.GetComponent<GameFTT>();
         AssignValue(arr);
+        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
+        {
+            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+        }
+        else
+        {
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+        }
     }
 
     private void Update()
     {
         playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = PlayerWin.ToString();
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = BotWin.ToString();
-        if (PlayerWin == 3)
+        if (PlayerWin == winMax)
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
@@ -60,7 +69,7 @@ public class GameManagerFTT : MonoBehaviour
                 AssignValue(arr);
             }
         }
-        else if (BotWin == 3)
+        else if (BotWin == winMax)
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
@@ -148,9 +157,14 @@ public class GameManagerFTT : MonoBehaviour
         if (selectedObjects[0].valueToReveal == 0 || selectedObjects[1].valueToReveal == 0 || selectedObjects[2].valueToReveal == 0)
         {
             if (turn == 1)
-            { PlayerWin++; }
+            { 
+                PlayerPrefs.SetInt("FlipTacToe", PlayerPrefs.GetInt("FlipTacToe") + 1);
+                PlayerWin++; 
+            }
             else
-            { BotWin++; }
+            { 
+                BotWin++; 
+            }
             AssignValue(arr);
             memory[0] = -1;
             memory[1] = -1;
@@ -165,6 +179,7 @@ public class GameManagerFTT : MonoBehaviour
         {
             if (selectedObjects[0].valueToReveal == 1)
             {
+                PlayerPrefs.SetInt("FlipTacToe", PlayerPrefs.GetInt("FlipTacToe") + 1);
                 PlayerWin++;
                 incremented = true;
 

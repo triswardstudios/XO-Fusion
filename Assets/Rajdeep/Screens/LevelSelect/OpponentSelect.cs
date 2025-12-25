@@ -10,8 +10,22 @@ public class OpponentSelect : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        PlayerPrefs.SetString("Opponent Type", "Bot");
-        self.sprite = bot;
+        if (PlayerPrefs.HasKey("Opponent Type"))
+        {
+            if (PlayerPrefs.GetString("Opponent Type") == "Versus")
+            {
+                self.sprite = player;
+            }
+            else
+            {
+                self.sprite = bot;
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetString("Opponent Type", "Bot");
+            self.sprite = bot;
+        }
     }
 
     // Update is called once per frame
