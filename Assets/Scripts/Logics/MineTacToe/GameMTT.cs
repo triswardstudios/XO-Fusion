@@ -95,14 +95,31 @@ public class GameMTT : MonoBehaviour
         else if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !loaded && !checksafe)
         {
             Debug.Log("Entered Winning Draw");
-            gameManager.tieBreaker.SetActive(true);
-            if (!wsl.final)
-            { wsl.Scene1.SetActive(true); }
-            timeUp = false;
-            wsl.final = true;
-            checksafe = true;
+            if (PlayerPrefs.GetString("Opponent Type") == "Bot")
+            {
+                gameManager.tieBreaker.SetActive(true);
+                if (!wsl.final)
+                { wsl.Scene1.SetActive(true); }
+                timeUp = false;
+                wsl.final = true;
+                checksafe = true;
+            }
+            else
+            {
+                Debug.Log("Entered Winning Draw");
+                if (gameManager.currentButtonClicked2 != -1 && !checksafe)
+                {
+                    gameManager.tieBreaker.SetActive(true);
+                    if (!wsl.final)
+                    { wsl.Scene01.SetActive(true); }
+                    timeUp = false;
+                    wsl.final = true;
+                    checksafe = true;
+                }
+            }
+            
         }
-        else if (gameManager.turn == 2 && !botIsMoving && !checksafe)
+        else if (gameManager.turn == 2 && !botIsMoving)
         {
             Debug.Log("Entered 2P move checker");
             if (PlayerPrefs.GetString("Opponent Type") == "Bot")
@@ -110,7 +127,6 @@ public class GameMTT : MonoBehaviour
                 Debug.Log("Entered Bot Move");
                 StartCoroutine(BotMove());
                 botIsMoving = true;
-                checksafe = true;
             }
             else
             {
@@ -296,31 +312,6 @@ public class GameMTT : MonoBehaviour
             checksafe = false;
         }
     }
-
-    //public IEnumerator Timer()
-    //{
-    //    while (time)
-    //    {
-    //        int currentTime = int.Parse(timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text);
-
-    //        while (currentTime > 0)
-    //        {
-    //            timeUp = false;
-    //            yield return new WaitForSeconds(1f);
-    //            currentTime--;
-    //            timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = currentTime.ToString();
-    //        }
-
-    //        // When it reaches 0
-    //        timeUp = false;
-    //        yield return new WaitForSeconds(1f);
-    //        timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
-
-    //        // Optional: switch turn or handle logic here
-    //        // gameManager.turn = (gameManager.turn == 1) ? 2 : 1;
-    //    }
-    //}
-
     public IEnumerator LoadSceneAsyncCoroutine(string sceneName)
     {
         loaded = true;
@@ -336,17 +327,4 @@ public class GameMTT : MonoBehaviour
 
         Debug.Log("Scene loaded: " + sceneName);
     }
-
-    //public void StopTimer()
-    //{
-    //    if (timerCoroutine != null)
-    //    {
-    //        StopCoroutine(timerCoroutine);
-    //        timerCoroutine = null;
-    //    }
-
-    //    // Reset display
-    //    //timeIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = "5";
-    //    timeUp = false;
-    //}
 }

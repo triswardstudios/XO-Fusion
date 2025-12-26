@@ -65,44 +65,30 @@ public class WinScreenLoader : MonoBehaviour
         if (win == 0 && final)
         {
             Debug.Log("Won");
-            if (PlayerPrefs.GetString("Game Mode") == "Normal")
-            {
-                yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameWonMTT"));
-                game.checksafe = false;
-            }
-            else
-            {
-                yield return StartCoroutine(game.Refresh());
-                game.checksafe = false;
-            }
+            PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
+            game.playerWin++;
+            yield return StartCoroutine(game.Refresh());
+            game.checksafe = false;
         }
         else if (win == 1 && final)
         {
             Debug.Log("Lost");
-            if (PlayerPrefs.GetString("Game Mode") == "Normal")
-            {
-                yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameLoseMTT"));
-                game.checksafe = false;
-            }
-            else
-            {
-                yield return StartCoroutine(game.Refresh());
-                game.checksafe = false;
-            }
-            
+            game.botWin++;
+            yield return StartCoroutine(game.Refresh());
+            game.checksafe = false;
         }
         else if (final)
         {
             Debug.Log("entered else");
             Scene1.SetActive(true);
-            game.StopAllCoroutines();
             game.checksafe = false;
+            game.StopAllCoroutines();
         }
 
     }
     public IEnumerator FullScreenAnimation2P(int secondMove, int firstMove, int win)
     {
-        Debug.Log("Coroutine Start");
+        Debug.Log("Coroutine Start 2P");
         Scene22.transform.Find("Player").GetComponent<Image>().sprite = PlayerSprites[firstMove];
         Scene22.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[secondMove];
         yield return null;
@@ -126,7 +112,8 @@ public class WinScreenLoader : MonoBehaviour
         else if (!final)
         {
             Debug.Log("entered else");
-            Scene01.SetActive(true);
+            Scene01.SetActive(true); 
+            game.checksafe = false;
             game.StopAllCoroutines();
         }
         if (!final)
@@ -156,8 +143,8 @@ public class WinScreenLoader : MonoBehaviour
         {
             Debug.Log("entered else");
             Scene01.SetActive(true);
-            game.StopAllCoroutines();
             game.checksafe = false;
+            game.StopAllCoroutines();
         }
 
     }
