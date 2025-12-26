@@ -22,6 +22,7 @@ public class WinScreenLoader : MonoBehaviour
     public GameMTT game;
     public bool final = false;
     public int player1 = -1;
+    public int player2 = -1;
 
     // Update is called once per frame
 
@@ -67,10 +68,12 @@ public class WinScreenLoader : MonoBehaviour
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
                 yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameWonMTT"));
+                game.checksafe = false;
             }
             else
             {
                 yield return StartCoroutine(game.Refresh());
+                game.checksafe = false;
             }
         }
         else if (win == 1 && final)
@@ -79,10 +82,12 @@ public class WinScreenLoader : MonoBehaviour
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
                 yield return StartCoroutine(game.LoadSceneAsyncCoroutine("GameLoseMTT"));
+                game.checksafe = false;
             }
             else
             {
                 yield return StartCoroutine(game.Refresh());
+                game.checksafe = false;
             }
             
         }
@@ -91,6 +96,7 @@ public class WinScreenLoader : MonoBehaviour
             Debug.Log("entered else");
             Scene1.SetActive(true);
             game.StopAllCoroutines();
+            game.checksafe = false;
         }
 
     }
@@ -136,12 +142,14 @@ public class WinScreenLoader : MonoBehaviour
             PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
             game.playerWin++;
             yield return StartCoroutine(game.Refresh());
+            game.checksafe = false;
         }
         else if (win == 1 && final)
         {
             Debug.Log("Lost");
             game.botWin++;
             yield return StartCoroutine(game.Refresh());
+            game.checksafe = false;
 
         }
         else if (final)
@@ -149,6 +157,7 @@ public class WinScreenLoader : MonoBehaviour
             Debug.Log("entered else");
             Scene01.SetActive(true);
             game.StopAllCoroutines();
+            game.checksafe = false;
         }
 
     }

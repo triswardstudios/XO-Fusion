@@ -56,13 +56,15 @@ public class ButtonClickMTT : MonoBehaviour
                 if (gameManager.turn == 1)
                 {
                     gameManager.currentButtonClicked1 = index;
+                    gameManager.turn = 2;
                 }
                 else
                 {
                     gameManager.currentButtonClicked2 = index;
+                    //gameManager.turn = 1;
                 }
                 Debug.Log("Object found in array at index: " + index);
-                gameManager.turn = 2;
+                //gameManager.turn = 2;
                 // You can now access gameManager.objects[index]
             }
             else
