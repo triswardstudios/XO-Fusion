@@ -38,19 +38,20 @@ public class GameManagerFTT : MonoBehaviour
     public GameObject botIndicator;
     public bool incremented = false;
     private int winMax = 3;
+    public bool complete = false;
 
     private void Start()
     {
         gm = GameObject.Find("Game");
         game = gm.GetComponent<GameFTT>();
         AssignValue(arr);
-        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
+        if (PlayerPrefs.GetInt("Number of Levels") <= 20)
         {
             winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
         }
         else
         {
-            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+            winMax = 99999;
         }
     }
 
@@ -156,19 +157,22 @@ public class GameManagerFTT : MonoBehaviour
         }
         if (selectedObjects[0].valueToReveal == 0 || selectedObjects[1].valueToReveal == 0 || selectedObjects[2].valueToReveal == 0)
         {
-            if (turn == 1)
+            if (turn == 1 && !complete)
             { 
                 PlayerPrefs.SetInt("FlipTacToe", PlayerPrefs.GetInt("FlipTacToe") + 1);
-                PlayerWin++; 
+                PlayerWin++;
+                complete = true;
             }
-            else
+            else if (turn == 2 && !complete)
             { 
-                BotWin++; 
+                BotWin++;
+                complete = true;
             }
             AssignValue(arr);
             memory[0] = -1;
             memory[1] = -1;
             memory[2] = -1;
+            complete = false;
         }
 
         // Wait before resetting
@@ -177,14 +181,14 @@ public class GameManagerFTT : MonoBehaviour
         if (selectedObjects[0].valueToReveal == selectedObjects[1].valueToReveal
     && selectedObjects[1].valueToReveal == selectedObjects[2].valueToReveal)
         {
-            if (selectedObjects[0].valueToReveal == 1)
+            if (selectedObjects[0].valueToReveal == 1 && !incremented)
             {
                 PlayerPrefs.SetInt("FlipTacToe", PlayerPrefs.GetInt("FlipTacToe") + 1);
                 PlayerWin++;
                 incremented = true;
 
             }
-            else if (selectedObjects[0].valueToReveal == 2)
+            else if (selectedObjects[0].valueToReveal == 2 &&!incremented)
             {
                 BotWin++;
                 incremented = true;

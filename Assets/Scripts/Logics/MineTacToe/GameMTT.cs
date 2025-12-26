@@ -21,9 +21,7 @@ public class GameMTT : MonoBehaviour
     public bool time = true;
     public GameObject timeIndicator;
     public LevelLoader levelLoader;
-    private bool loaded = false;
     public bool animFinished = true;
-    private Coroutine timerCoroutine;
     private int winMax = 3;
     public int playerWin = 0;
     public int botWin = 0;
@@ -35,13 +33,13 @@ public class GameMTT : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManagerMTT>();
-        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels") >= 3)
+        if (PlayerPrefs.GetInt("Number of Levels")<= 20)
         {
             winMax = (PlayerPrefs.GetInt("Number of Levels") / 2)+1;
         }
         else
         {
-            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+            winMax = 99999;
         }
     }                 
     private void Update()
@@ -63,7 +61,7 @@ public class GameMTT : MonoBehaviour
                 checksafe = true;
             }
         }
-        else if(botWin == winMax && !checksafe)
+        else if (botWin == winMax && !checksafe)
         {
             Debug.Log("Entered Bot Win");
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
@@ -77,7 +75,7 @@ public class GameMTT : MonoBehaviour
                 checksafe = true;
             }
         }
-        if (win.WinCondition(gameManager.arr, 1) && !win.WinCondition(gameManager.arr, 2) && !loaded && !checksafe)
+        else if (win.WinCondition(gameManager.arr, 1) && !win.WinCondition(gameManager.arr, 2) && !checksafe)
         {
             Debug.Log("Entered Player Score Update");
             PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
@@ -85,60 +83,67 @@ public class GameMTT : MonoBehaviour
             StartCoroutine(Refresh());
             checksafe = true;
         }
-        else if (win.WinCondition(gameManager.arr, 2) && !win.WinCondition(gameManager.arr, 1) && !loaded && !checksafe) 
+        else if (win.WinCondition(gameManager.arr, 2) && !win.WinCondition(gameManager.arr, 1) && !checksafe)
         {
             Debug.Log("Entered Bot Score Update");
             botWin++;
             StartCoroutine(Refresh());
             checksafe = true;
         }
-        else if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !loaded && !checksafe)
+        if (PlayerPrefs.GetString("Opponent Type") == "Bot")
         {
-            Debug.Log("Entered Winning Draw");
-            if (PlayerPrefs.GetString("Opponent Type") == "Bot")
-            {
-                gameManager.tieBreaker.SetActive(true);
-                if (!wsl.final)
-                { wsl.Scene1.SetActive(true); }
-                timeUp = false;
-                wsl.final = true;
-                checksafe = true;
-            }
-            else
-            {
-                Debug.Log("Entered Winning Draw");
-                if (gameManager.currentButtonClicked2 != -1 && !checksafe)
-                {
-                    gameManager.tieBreaker.SetActive(true);
-                    if (!wsl.final)
-                    { wsl.Scene01.SetActive(true); }
-                    timeUp = false;
-                    wsl.final = true;
-                    checksafe = true;
-                }
-            }
-            
+            BotMode();
+            Debug.Log("Entered Against Bot");
+        }
+        else
+        {
+            AgainstPlayer();
+            Debug.Log("Entered Against Player");
+        }
+
+    }
+    private void BotMode()
+    {
+        if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !checksafe)
+        {
+            Debug.Log("Entered Winning Draw Bot");
+            gameManager.tieBreaker.SetActive(true);
+            wsl.Scene1.SetActive(true);
+            checksafe = true;
+            wsl.specialDraw = true;
+        }
+        else if (gameManager.turn == 2 && !botIsMoving)
+        {
+            Debug.Log("Entered Bot Move Checker");
+            StartCoroutine(BotMove());
+            botIsMoving = true;
+        }
+        else if (gameManager.turn == 1 && !gameManager.arr.Contains(0) && !checksafe)
+        {
+            StartCoroutine(Refresh());
+            checksafe = true;
+        }
+    }
+    private void AgainstPlayer()
+    {
+        if (win.WinCondition(gameManager.arr, 2) && win.WinCondition(gameManager.arr, 1) && !checksafe)
+        {
+            checksafe = true;
+            Debug.Log("Entered Winning Draw Player");
+            gameManager.tieBreaker2.SetActive(true);
+            wsl.Scene01.SetActive(true);
+            wsl.specialDraw = true;
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
             Debug.Log("Entered 2P move checker");
-            if (PlayerPrefs.GetString("Opponent Type") == "Bot")
+            if (gameManager.currentButtonClicked2 != -1 && !checksafe)
             {
-                Debug.Log("Entered Bot Move");
-                StartCoroutine(BotMove());
-                botIsMoving = true;
-            }
-            else
-            {
-                Debug.Log("Entered 2P Move");
-                if (gameManager.currentButtonClicked2 != -1 &&!checksafe)
-                {
-                    checksafe = true;
-                    Debug.Log("Entered Versus Move init");
-                    versusMode(gameManager.currentButtonClicked2);
-                    wsl.player2 = gameManager.currentButtonClicked2;
-                    gameManager.currentButtonClicked2 = -1;
-                }
+                checksafe = true;
+                Debug.Log("Entered Versus Move init");
+                versusMode(gameManager.currentButtonClicked2);
+                wsl.player2 = gameManager.currentButtonClicked2;
+                gameManager.currentButtonClicked2 = -1;
             }
         }
         else if (gameManager.turn == 1 && !gameManager.arr.Contains(0) && !checksafe)
@@ -147,7 +152,6 @@ public class GameMTT : MonoBehaviour
             checksafe = true;
         }
     }
-
     private IEnumerator BotMove()
     {
         botIsMoving = true;
@@ -166,15 +170,12 @@ public class GameMTT : MonoBehaviour
                 {
                     gameManager.boardSpecs[move].GetComponent<ButtonClickMTT>().ClickButton();
                     gameManager.turn = 1;
-                    timeUp = false;
                     gameManager.boardSpecs[gameManager.currentButtonClicked1].GetComponent<ButtonClickMTT>().ClickButton();
-                    time = true;
                 }
                 else
                 {
                     gameManager.tieBreaker.SetActive(true);
                     wsl.Scene1.SetActive(true);
-                    timeUp = false;
                 }
             }
             else
@@ -212,7 +213,7 @@ public class GameMTT : MonoBehaviour
     {
         Random random = new Random(Guid.NewGuid().GetHashCode());
         tieBreak = true;
-        
+        wsl.Scene1.SetActive(false);
         botRPS = random.Next(0, 3);
         if ((num == 0 && botRPS == 2) || (num == 1 && botRPS == 0) || (num == 2 && botRPS == 1))
         {
@@ -234,6 +235,7 @@ public class GameMTT : MonoBehaviour
 
     public void RockPaperScissors2(int num2)
     {
+        wsl.Scene02.SetActive(false);
         int num = wsl.player1;
         if ((num == 0 && num2 == 2) || (num == 1 && num2 == 0) || (num == 2 && num2 == 1))
         {
@@ -297,9 +299,7 @@ public class GameMTT : MonoBehaviour
         {
             gameManager.boardSpecs[secondMove].GetComponent<ButtonClickMTT>().ClickButton();
             gameManager.turn = 1;
-            timeUp = false;
             gameManager.boardSpecs[gameManager.currentButtonClicked1].GetComponent<ButtonClickMTT>().ClickButton();
-            time = true;
             checksafe = false;
             gameManager.currentButtonClicked1 = -1;
             gameManager.currentButtonClicked2 = -1;
@@ -308,13 +308,11 @@ public class GameMTT : MonoBehaviour
         {
             gameManager.tieBreaker2.SetActive(true);
             wsl.Scene01.SetActive(true);
-            timeUp = false;
             checksafe = false;
         }
     }
     public IEnumerator LoadSceneAsyncCoroutine(string sceneName)
     {
-        loaded = true;
         yield return new WaitForSeconds(2f);
         AsyncOperation asyncLoad = SceneManager.LoadSceneAsync(sceneName, LoadSceneMode.Single);
 

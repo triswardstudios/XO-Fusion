@@ -23,6 +23,8 @@ public class WinScreenLoader : MonoBehaviour
     public bool final = false;
     public int player1 = -1;
     public int player2 = -1;
+    public bool specialDraw = false;
+    public TicTacToeLogic win1 = new();
 
     // Update is called once per frame
 
@@ -33,58 +35,52 @@ public class WinScreenLoader : MonoBehaviour
         Scene2.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[botMove];
         yield return null;
         Scene1.SetActive(false);
-        //yield return new WaitForSeconds(0.5f);
         Scene2.SetActive(true);
         yield return new WaitForSeconds(2f);
         Scene2.SetActive(false);
-        if (win == 0 && !final)
+        if (win == 0)
         {
             Scene3.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene3.SetActive(false);
+            if(specialDraw)
+            {
+                PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
+                game.playerWin++;
+                game.checksafe = false;
+                yield return StartCoroutine(game.Refresh());
+            }
+            self.SetActive(false);
+            Scene1.SetActive(true);
         }
-        else if (win == 1 && !final)
+        else if (win == 1)
         {
             Scene4.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene4.SetActive(false);
+            if (specialDraw)
+            {
+                game.botWin++;
+                game.checksafe = false;
+                yield return StartCoroutine(game.Refresh());
+            }
+            self.SetActive(false);
+            Scene1.SetActive(true);
         }
-        else if(!final)
+        else
         {
             Debug.Log("entered else");
             Scene1.SetActive(true);
+            game.checksafe = false;
             game.StopAllCoroutines();
         }
-        if (!final)
+        yield return null;
+        self.SetActive(false);
+        if(!specialDraw)
         {
-            yield return null;
-            self.SetActive(false);
             yield return StartCoroutine(game.FinishingUpdate(win));
         }
-        Debug.Log("skipped else");
-        if (win == 0 && final)
-        {
-            Debug.Log("Won");
-            PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
-            game.playerWin++;
-            yield return StartCoroutine(game.Refresh());
-            game.checksafe = false;
-        }
-        else if (win == 1 && final)
-        {
-            Debug.Log("Lost");
-            game.botWin++;
-            yield return StartCoroutine(game.Refresh());
-            game.checksafe = false;
-        }
-        else if (final)
-        {
-            Debug.Log("entered else");
-            Scene1.SetActive(true);
-            game.checksafe = false;
-            game.StopAllCoroutines();
-        }
-
+        specialDraw = false;
     }
     public IEnumerator FullScreenAnimation2P(int secondMove, int firstMove, int win)
     {
@@ -93,53 +89,39 @@ public class WinScreenLoader : MonoBehaviour
         Scene22.transform.Find("Bot").GetComponent<Image>().sprite = CPUSprites[secondMove];
         yield return null;
         Scene02.SetActive(false);
-        //yield return new WaitForSeconds(0.5f);
         Scene22.SetActive(true);
         yield return new WaitForSeconds(2f);
         Scene22.SetActive(false);
-        if (win == 0 && !final)
+        if (win == 0)
         {
             Scene33.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene33.SetActive(false);
+            if (specialDraw)
+            {
+                PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
+                game.playerWin++;
+                game.checksafe = false;
+                yield return StartCoroutine(game.Refresh());
+            }
+            self2.SetActive(false);
+            Scene01.SetActive(true);
         }
-        else if (win == 1 && !final)
+        else if (win == 1)
         {
             Scene44.SetActive(true);
             yield return new WaitForSeconds(1f);
             Scene44.SetActive(false);
-        }
-        else if (!final)
-        {
-            Debug.Log("entered else");
-            Scene01.SetActive(true); 
-            game.checksafe = false;
-            game.StopAllCoroutines();
-        }
-        if (!final)
-        {
-            yield return null;
+            if (specialDraw)
+            {
+                game.botWin++;
+                game.checksafe = false;
+                yield return StartCoroutine(game.Refresh());
+            }
             self2.SetActive(false);
-            yield return StartCoroutine(game.FinishingUpdate(win));
+            Scene01.SetActive(true);
         }
-        Debug.Log("skipped else");
-        if (win == 0 && final)
-        {
-            Debug.Log("Won");
-            PlayerPrefs.SetInt("MineTacToe", PlayerPrefs.GetInt("MineTacToe") + 1);
-            game.playerWin++;
-            yield return StartCoroutine(game.Refresh());
-            game.checksafe = false;
-        }
-        else if (win == 1 && final)
-        {
-            Debug.Log("Lost");
-            game.botWin++;
-            yield return StartCoroutine(game.Refresh());
-            game.checksafe = false;
-
-        }
-        else if (final)
+        else
         {
             Debug.Log("entered else");
             Scene01.SetActive(true);
@@ -147,6 +129,13 @@ public class WinScreenLoader : MonoBehaviour
             game.StopAllCoroutines();
         }
 
+        yield return null;
+        self2.SetActive(false);
+        if (!specialDraw)
+        {
+            yield return StartCoroutine(game.FinishingUpdate(win));
+        }
+        specialDraw = false;
     }
     public void setPlayer1(int val)
     {

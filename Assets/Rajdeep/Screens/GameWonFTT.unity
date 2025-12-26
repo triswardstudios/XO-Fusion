@@ -574,7 +574,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 85ae49eb00bc15c4faed5f2c4c28df04, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scene: TicTacToe
+  scene: MineTacToe
 --- !u!1 &927983750
 GameObject:
   m_ObjectHideFlags: 0

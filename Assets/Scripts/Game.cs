@@ -21,13 +21,13 @@ public class Game : MonoBehaviour
     {
         gm = GameObject.Find("GameManager");
         gameManager = gm.GetComponent<GameManager>();
-        if (PlayerPrefs.GetInt("Number of Levels") % 2 == 0 && PlayerPrefs.GetInt("Number of Levels")>=3)
+        if (PlayerPrefs.GetInt("Number of Levels") <= 20)
         {
-            winMax = PlayerPrefs.GetInt("Number of Levels") / 2;
+            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
         }
         else
         {
-            winMax = (PlayerPrefs.GetInt("Number of Levels") / 2) + 1;
+            winMax = 99999;
         }
     }
 
@@ -43,8 +43,8 @@ public class Game : MonoBehaviour
             }
             else
             {
-                StartCoroutine(Refresh());
                 refreshing = false;
+                StartCoroutine(Refresh());
             }
         }
         else if (botWon == winMax)
@@ -55,19 +55,24 @@ public class Game : MonoBehaviour
             }
             else
             {
-                StartCoroutine(Refresh());
                 refreshing = false;
+                StartCoroutine(Refresh());
             }
         }
         if (win.WinCondition(gameManager.arr, 1) && refreshing)
         {
-            StartCoroutine(Refresh());
             refreshing = false;
+            StartCoroutine(Refresh());
         }
         else if (win.WinCondition(gameManager.arr, 2) && refreshing)
         {
-            StartCoroutine(Refresh());
             refreshing = false;
+            StartCoroutine(Refresh());
+        }
+        else if (!gameManager.arr.Contains(0) && refreshing)
+        {
+            refreshing = false;
+            StartCoroutine(Refresh());
         }
         else if (gameManager.turn == 2 && !botIsMoving)
         {
@@ -76,11 +81,6 @@ public class Game : MonoBehaviour
                 StartCoroutine(BotMove());
                 botIsMoving = true;
             }
-        }
-        else if (!gameManager.arr.Contains(0) && refreshing)
-        {
-            StartCoroutine(Refresh());
-            refreshing = false;
         }
     }
 
