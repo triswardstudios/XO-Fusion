@@ -11,13 +11,15 @@ public class SoundController : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        if(sfxSlider == null)
+        if(sfxSlider != null)
         {
-            Debug.LogError("SFX Slider GameObject is not assigned in SoundController.");
+            sfxSlider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("SFX Volume");
+            Debug.LogError(PlayerPrefs.GetFloat("SFX Volume"));
         }
-        if(bgmSlider == null)
+        if(bgmSlider != null)
         {
-            Debug.LogError("BGM Slider GameObject is not assigned in SoundController.");
+            bgmSlider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("BGM Volume");
+            Debug.LogError(PlayerPrefs.GetFloat("BGM Volume"));
         }
         if(bgmSource == null)
         {
@@ -27,9 +29,9 @@ public class SoundController : MonoBehaviour
         {
             Debug.LogError("SFX Source GameObject is not assigned in SoundController.");
         }
-        if(muteToggle == null)
+        if(muteToggle != null)
         {
-            Debug.LogError("Mute Toggle GameObject is not assigned in SoundController.");
+            muteToggle.GetComponent<Slider>().value = PlayerPrefs.GetFloat("Mute");
         }
     }
 
@@ -39,13 +41,41 @@ public class SoundController : MonoBehaviour
         if (sfxSlider != null) { 
             if (muteToggle.GetComponent<Slider>().value == 1)
             {
+                if(PlayerPrefs.GetFloat("Mute") != 1)
+                {
+                    PlayerPrefs.SetFloat("Mute", 1);
+                }
                 bgmSource.GetComponent<AudioSource>().volume = bgmSlider.GetComponent<Slider>().value;
+                PlayerPrefs.SetFloat("BGM Volume", bgmSlider.GetComponent<Slider>().value);
                 sfxSource.GetComponent<AudioSource>().volume = sfxSlider.GetComponent<Slider>().value;
+                PlayerPrefs.SetFloat("SFX Volume", sfxSlider.GetComponent<Slider>().value);
             }
             else
             {
+                if(bgmSource.GetComponent<AudioSource>().volume != 0 || sfxSource.GetComponent<AudioSource>().volume != 0)
+                {
+                    PlayerPrefs.SetFloat("BGM Volume", bgmSlider.GetComponent<Slider>().value);
+                    PlayerPrefs.SetFloat("SFX Volume", sfxSlider.GetComponent<Slider>().value);
+                }
                 bgmSource.GetComponent<AudioSource>().volume = 0;
                 sfxSource.GetComponent<AudioSource>().volume = 0;
+                PlayerPrefs.SetFloat("Mute", 0);
+            }
+        }
+        else
+        {
+            if(GameObject.Find("SFX") != null)
+            {
+                sfxSlider = GameObject.Find("SFX Slider");
+                bgmSlider = GameObject.Find("BGM Slider");
+                bgmSource = GameObject.Find("BGM");
+                sfxSource = GameObject.Find("SFX");
+                muteToggle = GameObject.Find("Sound Toggle");
+            }
+
+            else
+            {
+                Debug.LogError("No audio adjusting present");
             }
         }
     }

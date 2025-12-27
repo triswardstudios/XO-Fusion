@@ -17,16 +17,28 @@ public class PlayerPrefsInit : MonoBehaviour
         if (!PlayerPrefs.HasKey("BGMVolume")){
             PlayerPrefs.SetFloat("BGMVolume", 0.2f);
         }
-        if (PlayerPrefs.HasKey("FlipTacToe")){
+        if (!PlayerPrefs.HasKey("FlipTacToe")){
             PlayerPrefs.SetInt("FlipTacToe", 0);
         }
-        if (PlayerPrefs.HasKey("TicTacToe"))
+        if (!PlayerPrefs.HasKey("TicTacToe"))
         {
             PlayerPrefs.SetInt("TicTacToe", 0);
         }
-        if (PlayerPrefs.HasKey("MineTacToe"))
+        if (!PlayerPrefs.HasKey("MineTacToe"))
         {
             PlayerPrefs.SetInt("MineTacToe", 0);
+        }
+        if(!PlayerPrefs.HasKey("BGM Volume"))
+        {
+            PlayerPrefs.SetFloat("BGM Volume", 0.3f);
+        }
+        if(!PlayerPrefs.HasKey("SFX Volume"))
+        {
+            PlayerPrefs.SetFloat("SFX Volume", 0.3f);
+        }
+        if(!PlayerPrefs.HasKey("Mute"))
+        {
+            PlayerPrefs.SetFloat("Mute", 0f);
         }
     }
 
