@@ -1,3 +1,4 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,6 +9,8 @@ public class SoundController : MonoBehaviour
     public GameObject bgmSource;
     public GameObject sfxSource;
     public GameObject muteToggle;
+    public GameObject sfxDisplay;
+    public GameObject bgmDisplay;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -45,9 +48,30 @@ public class SoundController : MonoBehaviour
                 {
                     PlayerPrefs.SetFloat("Mute", 1);
                 }
-                bgmSource.GetComponent<AudioSource>().volume = bgmSlider.GetComponent<Slider>().value;
+                if (bgmSlider.GetComponent<Slider>().value < 10)
+                {
+                    bgmDisplay.GetComponent<TextMeshProUGUI>().text = "0"+ bgmSlider.GetComponent<Slider>().value.ToString("0");
+                    
+                }
+
+                else
+                {
+                    bgmDisplay.GetComponent<TextMeshProUGUI>().text = bgmSlider.GetComponent<Slider>().value.ToString("0");
+                }
+                if (sfxSlider.GetComponent<Slider>().value < 10)
+                {
+                    sfxDisplay.GetComponent<TextMeshProUGUI>().text = "0"+ sfxSlider.GetComponent<Slider>().value.ToString("0");
+                }
+
+                else
+                {
+                    sfxDisplay.GetComponent<TextMeshProUGUI>().text = sfxSlider.GetComponent<Slider>().value.ToString("0");
+                }
+
+                bgmSource.GetComponent<AudioSource>().volume = bgmSlider.GetComponent<Slider>().value/100;
                 PlayerPrefs.SetFloat("BGM Volume", bgmSlider.GetComponent<Slider>().value);
-                sfxSource.GetComponent<AudioSource>().volume = sfxSlider.GetComponent<Slider>().value;
+                sfxSource.GetComponent<AudioSource>().volume = sfxSlider.GetComponent<Slider>().value/100;
+                
                 PlayerPrefs.SetFloat("SFX Volume", sfxSlider.GetComponent<Slider>().value);
             }
             else
@@ -71,6 +95,8 @@ public class SoundController : MonoBehaviour
                 bgmSource = GameObject.Find("BGM");
                 sfxSource = GameObject.Find("SFX");
                 muteToggle = GameObject.Find("Sound Toggle");
+                sfxDisplay = GameObject.Find("SFX Display");
+                bgmDisplay = GameObject.Find("BGM Display");
             }
 
             else
