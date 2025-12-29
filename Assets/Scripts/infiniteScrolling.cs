@@ -13,7 +13,7 @@ public class InfiniteScroling : MonoBehaviour
     public float speed = 2f;
 
     [Tooltip("Direction of scrolling (normalized automatically).")]
-    public Vector2 direction = new Vector2(1, -1); // e.g. (1, -1) = down-right
+    public Vector2 direction = new Vector2(0, 1); // e.g. (1, -1) = down-right
 
     [Header("Tile Settings")]
     [Tooltip("Width of one tile (auto-detected if <= 0).")]
@@ -47,11 +47,11 @@ public class InfiniteScroling : MonoBehaviour
             if (tileHeight <= 0f) tileHeight = r.bounds.size.y;
         }
 
-        // Normalize scroll direction
-        if (direction.sqrMagnitude > 0)
-            direction.Normalize();
-        else
-            direction = new Vector2(1, -1).normalized;
+        //// Normalize scroll direction
+        //if (direction.sqrMagnitude > 0)
+        //    direction.Normalize();
+        //else
+        //    direction = new Vector2(1, -1).normalized;
     }
 
     void Update()

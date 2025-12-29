@@ -39,7 +39,16 @@ public class GameManagerFTT : MonoBehaviour
     public bool incremented = false;
     private int winMax = 3;
     public bool complete = false;
+    public GameObject turnIndicator;
+    private float target;
+    public float time = 2f;
+    private Coroutine fadeCoroutine;
 
+    // Standardizing to Color (0-1f) for the Lerp function
+    private Color color1 = new Color(0f, 0f, 1f, 0.5f); // Blue 50% Alpha
+    private Color color2 = new Color(1f, 0f, 0f, 0.5f);
+    [SerializeField] private float duration = 1.0f; // How many seconds the fade should take
+    private float colorPercent = 0f;
     private void Start()
     {
         gm = GameObject.Find("Game");
@@ -59,6 +68,17 @@ public class GameManagerFTT : MonoBehaviour
     {
         playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = PlayerWin.ToString();
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = BotWin.ToString();
+
+        // 2. Advance or Retreat the percentage based on your condition
+        if (turn == 1)
+        {
+            StartFade(false, 1f);
+        }
+        else
+        {
+            StartFade(true, 1f);
+        }
+
         if (PlayerWin == winMax)
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
@@ -258,5 +278,33 @@ public class GameManagerFTT : MonoBehaviour
         }
 
         Debug.Log("Scene loaded: " + sceneName);
+    }
+    public void StartFade(bool toColor2, float duration)
+    {
+        // Stop any existing fade so they don't fight each other
+        if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+
+        Color targetColor = toColor2 ? color2 : color1;
+        fadeCoroutine = StartCoroutine(FadeTo(targetColor, duration));
+    }
+
+    IEnumerator FadeTo(Color targetColor, float duration)
+    {
+        Color startColor = turnIndicator.GetComponent<SpriteRenderer>().color;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float normalizedTime = elapsed / duration;
+
+            // Optional: Adds a "SmoothStep" for a more organic feel
+            // normalizedTime = Mathf.SmoothStep(0f, 1f, normalizedTime);
+
+            turnIndicator.GetComponent<SpriteRenderer>().color = Color.Lerp(startColor, targetColor, normalizedTime);
+            yield return null; // Wait for the next frame
+        }
+
+        turnIndicator.GetComponent<SpriteRenderer>().color = targetColor; // Ensure it finishes exactly at the target
     }
 }
