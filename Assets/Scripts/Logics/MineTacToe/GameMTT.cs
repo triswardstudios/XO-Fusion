@@ -28,6 +28,14 @@ public class GameMTT : MonoBehaviour
     public GameObject playerIndicator;
     public GameObject botIndicator;
     public bool checksafe = false;
+    public GameObject turnIndicator;
+    private Coroutine fadeCoroutine;
+
+    // Standardizing to Color (0-1f) for the Lerp function
+    private Color color1 = new Color(0f, 0f, 1f, 0.5f); // Blue 50% Alpha
+    private Color color2 = new Color(1f, 0f, 0f, 0.5f);
+    [SerializeField] private float duration = 1.0f; // How many seconds the fade should take
+    private float colorPercent = 0f;
 
     private void Start()
     {
@@ -47,12 +55,21 @@ public class GameMTT : MonoBehaviour
         Debug.Log("Entered Update");
         playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = playerWin.ToString();
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = botWin.ToString();
+        if (gameManager.turn == 1)
+        {
+            StartFade(false, 1f);
+        }
+        else
+        {
+            StartFade(true, 1f);
+        }
         if (playerWin == winMax && !checksafe)
         {
             Debug.Log("Entered Player Win");
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameWonMTT"));
+                PlayerPrefs.SetString("Last Scene", SceneManager.GetActiveScene().name);
+                StartCoroutine(LoadSceneAsyncCoroutine("OPlayerWin"));
                 checksafe = true;
             }
             else
@@ -66,7 +83,8 @@ public class GameMTT : MonoBehaviour
             Debug.Log("Entered Bot Win");
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameLoseMTT"));
+                PlayerPrefs.SetString("Last Scene", SceneManager.GetActiveScene().name);
+                StartCoroutine(LoadSceneAsyncCoroutine("XPlayerWin"));
                 checksafe = true;
             }
             else
@@ -324,5 +342,33 @@ public class GameMTT : MonoBehaviour
         }
 
         Debug.Log("Scene loaded: " + sceneName);
+    }
+    public void StartFade(bool toColor2, float duration)
+    {
+        // Stop any existing fade so they don't fight each other
+        if (fadeCoroutine != null) StopCoroutine(fadeCoroutine);
+
+        Color targetColor = toColor2 ? color2 : color1;
+        fadeCoroutine = StartCoroutine(FadeTo(targetColor, duration));
+    }
+
+    IEnumerator FadeTo(Color targetColor, float duration)
+    {
+        Color startColor = turnIndicator.GetComponent<SpriteRenderer>().color;
+        float elapsed = 0f;
+
+        while (elapsed < duration)
+        {
+            elapsed += Time.deltaTime;
+            float normalizedTime = elapsed / duration;
+
+            // Optional: Adds a "SmoothStep" for a more organic feel
+            // normalizedTime = Mathf.SmoothStep(0f, 1f, normalizedTime);
+
+            turnIndicator.GetComponent<SpriteRenderer>().color = Color.Lerp(startColor, targetColor, normalizedTime);
+            yield return null; // Wait for the next frame
+        }
+
+        turnIndicator.GetComponent<SpriteRenderer>().color = targetColor; // Ensure it finishes exactly at the target
     }
 }

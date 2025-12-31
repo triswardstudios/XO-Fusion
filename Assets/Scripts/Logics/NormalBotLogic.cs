@@ -145,7 +145,7 @@ public class NormalBotLogic : EasyBotLogic
             if (count < 2)
             {
                 int[] corners = new int[] { 0, 2, 6, 8 };
-                int pos = Random.Range(0, 3);
+                int pos = Random.Range(0, 4);
                 return corners[pos];
             }
             foreach (var combo in WinningCombos)

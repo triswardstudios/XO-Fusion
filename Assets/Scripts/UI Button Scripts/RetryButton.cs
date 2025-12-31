@@ -19,6 +19,10 @@ public class RetryButton : MonoBehaviour
     {
         StartCoroutine(LoadSceneAsyncCoroutine(scene));
     }
+    public void AutoLoadNewScene()
+    {
+        StartCoroutine(LoadSceneAsyncCoroutine(PlayerPrefs.GetString("Last Scene")));
+    }
 
     private IEnumerator LoadSceneAsyncCoroutine(string sceneName)
     {

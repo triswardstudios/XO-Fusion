@@ -68,8 +68,6 @@ public class GameManagerFTT : MonoBehaviour
     {
         playerIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = PlayerWin.ToString();
         botIndicator.GetComponent<TMPro.TextMeshProUGUI>().text = BotWin.ToString();
-
-        // 2. Advance or Retreat the percentage based on your condition
         if (turn == 1)
         {
             StartFade(false, 1f);
@@ -83,7 +81,8 @@ public class GameManagerFTT : MonoBehaviour
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameWonFTT"));
+                PlayerPrefs.SetString("Last Scene", SceneManager.GetActiveScene().name);
+                StartCoroutine(LoadSceneAsyncCoroutine("OPlayerWin"));
             }
             else
             {
@@ -94,7 +93,8 @@ public class GameManagerFTT : MonoBehaviour
         {
             if (PlayerPrefs.GetString("Game Mode") == "Normal")
             {
-                StartCoroutine(LoadSceneAsyncCoroutine("GameLoseFTT"));
+                PlayerPrefs.SetString("Last Scene", SceneManager.GetActiveScene().name);
+                StartCoroutine(LoadSceneAsyncCoroutine("XPlayerWin"));
             }
             else
             {

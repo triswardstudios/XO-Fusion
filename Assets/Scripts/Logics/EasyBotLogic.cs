@@ -6,12 +6,12 @@ public class EasyBotLogic
 
     public int MakeMove(int[] arr)
     {
-        int pos = Random.Range(0, 8);
+        int pos = Random.Range(0, 9);
         if (arr.Contains(0))
         {
             while (arr[pos] != 0)
             {
-                pos = Random.Range(0, 8);
+                pos = Random.Range(0, 9);
             }
             return pos;
         }

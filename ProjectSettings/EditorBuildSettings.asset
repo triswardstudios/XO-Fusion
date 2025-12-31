@@ -23,22 +23,22 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/FlipTacToe.unity
     guid: 9639cdd3429cf8042bdddb5e34543ad0
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameWonMTT.unity
     guid: 3948134b5f615194a8f330acb282e61d
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameLoseMTT.unity
     guid: 3341a1a7cc50d5043af8fcbe2011d251
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameWonFTT.unity
     guid: af86bf5ab0bb5054caeeedd686fbbea7
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameWonTTT.unity
     guid: d491c1569836fc34d91ac8fe8d5689f6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameLoseTTT.unity
     guid: 4090270c38988d34fa5a5d808c2984b4
-  - enabled: 1
+  - enabled: 0
     path: Assets/Rajdeep/Screens/GameLoseFTT.unity
     guid: a8b5a6b8bbb7ab24381c104a6dc651be
   - enabled: 1
@@ -50,6 +50,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Rajdeep/Screens/LevelSelect/TicTacToeSelect.unity
     guid: 6991eebc2ca868f4e9c99fda75034bef
+  - enabled: 1
+    path: Assets/Rajdeep/Screens/NewWinscreen/OPlayerWin.unity
+    guid: 7d0a2c98284be404cbdb5234c9f83aa9
+  - enabled: 1
+    path: Assets/Rajdeep/Screens/NewWinscreen/XPlayerWin.unity
+    guid: b75824e389015004ba167e67e88efe93
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 3590b91b4603b465dbb4216d601bff33, type: 3}
   m_UseUCBPForAssetBundles: 0
