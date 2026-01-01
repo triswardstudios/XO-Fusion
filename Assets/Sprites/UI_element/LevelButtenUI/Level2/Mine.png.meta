@@ -1,13 +1,22 @@
 fileFormatVersion: 2
-guid: 78b17eee055318f469d98d81bb484b3a
+guid: 564fe888a6c842d4b92b353dff0286c7
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -3678097369818557866
-    second: mode 1_0
+      213: 8135663367076951168
+    second: Mine_0
   - first:
-      213: 2607140179438880269
-    second: mode 1_1
+      213: -6017924223876201014
+    second: Mine_1
+  - first:
+      213: 8499149524133847469
+    second: Mine_2
+  - first:
+      213: 4794421619490200746
+    second: Mine_3
+  - first:
+      213: 1917121962522567632
+    second: Mine_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -129,13 +138,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: mode 1_0
+      name: Mine_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 93
-        height: 93
+        width: 72
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -144,20 +153,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6529aa6fde5c4fcc0800000000000000
-      internalID: -3678097369818557866
+      spriteID: 084b7ce4abea7e070800000000000000
+      internalID: 8135663367076951168
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: mode 1_1
+      name: Mine_1
       rect:
         serializedVersion: 2
-        x: 108
-        y: 3
-        width: 105
-        height: 90
+        x: 78
+        y: 61
+        width: 23
+        height: 20
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +175,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: d064a131e2c6e2420800000000000000
-      internalID: 2607140179438880269
+      spriteID: ac504ae7dc90c7ca0800000000000000
+      internalID: -6017924223876201014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_2
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 59
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da1ade6367b03f570800000000000000
+      internalID: 8499149524133847469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_3
+      rect:
+        serializedVersion: 2
+        x: 166
+        y: 0
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aac9a2d9f05398240800000000000000
+      internalID: 4794421619490200746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mine_4
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 23
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3e14f744cfa9a10800000000000000
+      internalID: 1917121962522567632
       vertices: []
       indices: 
       edges: []
@@ -186,8 +261,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      mode 1_0: -3678097369818557866
-      mode 1_1: 2607140179438880269
+      Mine_0: 8135663367076951168
+      Mine_1: -6017924223876201014
+      Mine_2: 8499149524133847469
+      Mine_3: 4794421619490200746
+      Mine_4: 1917121962522567632
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
