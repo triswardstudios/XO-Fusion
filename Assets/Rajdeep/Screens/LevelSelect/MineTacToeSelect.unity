@@ -329,9 +329,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns ksjdkjk bf dsad hele sdjjj
-    hdjhsje nsdnnsdh sjhdah lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns ksjdkjk
-    bf dsad hele sdjjj hdjhsje nsdnnsdh sjhdah lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns.
+  m_text: A twist on Tic Tac Toe. Choose a space each turn, if both pick the same
+    one, play Rock Paper  Scissors to claim it. Place your symbol and play until
+    the board is complete
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
   m_sharedMaterial: {fileID: -3675893550087939668, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
@@ -1126,7 +1126,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: FlipTacToe
+  m_text: MineTacToe
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
   m_sharedMaterial: {fileID: -3675893550087939668, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}

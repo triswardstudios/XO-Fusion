@@ -329,9 +329,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns ksjdkjk bf dsad hele sdjjj
-    hdjhsje nsdnnsdh sjhdah lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns ksjdkjk
-    bf dsad hele sdjjj hdjhsje nsdnnsdh sjhdah lasdhjhd sjakjsdke  kjaskdinemdn amsdjkjedns.
+  m_text: "Flip three cards from a hidden 3\xD73 grid and try to match your symbol.
+    Get three of a kind to win, but choose carefully. Wrong picks reset the board,
+    trigger a shuffle, or hand victory to your opponent. Fast, tense, and unpredictable."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
   m_sharedMaterial: {fileID: -3675893550087939668, guid: 8743d4a2c98b0cf4cab47d43c4cae382, type: 2}
