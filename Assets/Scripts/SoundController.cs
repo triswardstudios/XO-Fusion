@@ -17,20 +17,20 @@ public class SoundController : MonoBehaviour
         if(sfxSlider != null)
         {
             sfxSlider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("SFX Volume");
-            Debug.LogError(PlayerPrefs.GetFloat("SFX Volume"));
+            //Debug.LogError(PlayerPrefs.GetFloat("SFX Volume"));
         }
         if(bgmSlider != null)
         {
             bgmSlider.GetComponent<Slider>().value = PlayerPrefs.GetFloat("BGM Volume");
-            Debug.LogError(PlayerPrefs.GetFloat("BGM Volume"));
+            //Debug.LogError(PlayerPrefs.GetFloat("BGM Volume"));
         }
         if(bgmSource == null)
         {
-            Debug.LogError("BGM Source GameObject is not assigned in SoundController.");
+            //Debug.LogError("BGM Source GameObject is not assigned in SoundController.");
         }
         if(sfxSource == null)
         {
-            Debug.LogError("SFX Source GameObject is not assigned in SoundController.");
+            //Debug.LogError("SFX Source GameObject is not assigned in SoundController.");
         }
         if(muteToggle != null)
         {

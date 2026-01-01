@@ -21,7 +21,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MineTacToe.unity
     guid: c088c835fb37d934ca685aebd52c6c79
   - enabled: 1
-    path: Assets/FlipTacToe.unity
+    path: Assets/Scenes/FlipTacToe.unity
     guid: 9639cdd3429cf8042bdddb5e34543ad0
   - enabled: 0
     path: Assets/Rajdeep/Screens/GameWonMTT.unity

@@ -30,15 +30,15 @@ public class PlayerPrefsInit : MonoBehaviour
         }
         if(!PlayerPrefs.HasKey("BGM Volume"))
         {
-            PlayerPrefs.SetFloat("BGM Volume", 0.3f);
+            PlayerPrefs.SetFloat("BGM Volume", 0.5f);
         }
         if(!PlayerPrefs.HasKey("SFX Volume"))
         {
-            PlayerPrefs.SetFloat("SFX Volume", 0.3f);
+            PlayerPrefs.SetFloat("SFX Volume", 0.5f);
         }
         if(!PlayerPrefs.HasKey("Mute"))
         {
-            PlayerPrefs.SetFloat("Mute", 0f);
+            PlayerPrefs.SetFloat("Mute", 1f);
         }
     }
 
